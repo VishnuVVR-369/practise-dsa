@@ -12085,3 +12085,5 @@ const probs = [
         platform: "Leetcode",
     },
 ]
+
+console.log(probs);
