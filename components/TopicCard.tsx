@@ -17,12 +17,12 @@ interface TopicCardProps {
 export default function TopicCard({ topic, problems }: TopicCardProps) {
   const router = useRouter();
   const topicProblems = problems.filter((p) =>
-      subgroups
-        .filter((d) => d.title === topic)
-        .flatMap((d) => d.subgroups)
-        .flatMap((sg) => sg.problems)
-        .includes(p.id)
-    );
+    subgroups
+      .filter((d) => d.title === topic)
+      .flatMap((d) => d.subgroups)
+      .flatMap((sg) => sg.problems)
+      .includes(p.id)
+  );
   const completed = topicProblems.filter((p) => p.status === "Solved").length;
   return (
     <Card className="bg-blue-100">

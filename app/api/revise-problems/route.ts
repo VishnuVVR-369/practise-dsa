@@ -16,19 +16,22 @@ export async function GET(_req: NextRequest) {
     for (const daysAgo of daysAgoList) {
       const target = new Date(now.getTime() - daysAgo * MS_PER_DAY);
       const yyyy = target.getUTCFullYear();
-      const mm = String(target.getUTCMonth() + 1).padStart(2, '0');
-      const dd = String(target.getUTCDate()).padStart(2, '0');
+      const mm = String(target.getUTCMonth() + 1).padStart(2, "0");
+      const dd = String(target.getUTCDate()).padStart(2, "0");
       const targetDateString = `${yyyy}-${mm}-${dd}`;
       result[daysAgo] = await problems
         .find({
           status: "Solved",
-          dateSolved: { $regex: `^${targetDateString}` }
+          dateSolved: { $regex: `^${targetDateString}` },
         })
         .toArray();
     }
     return NextResponse.json(result);
   } catch (err) {
     console.error(err);
-    return NextResponse.json({ error: "Failed to fetch revision problems" }, { status: 500 });
+    return NextResponse.json(
+      { error: "Failed to fetch revision problems" },
+      { status: 500 }
+    );
   }
 }

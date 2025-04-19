@@ -61,7 +61,9 @@ export default function Home() {
                     <TopicList topics={topics} problems={problems} />
                     {selectedTopic && (
                       <div className="mt-12">
-                        <h2 className="text-xl font-semibold mb-4">{selectedTopic}</h2>
+                        <h2 className="text-xl font-semibold mb-4">
+                          {selectedTopic}
+                        </h2>
                         <ProblemsAccordion
                           selectedTopic={selectedTopic}
                           subgroups={subgroups}
@@ -83,9 +85,7 @@ export default function Home() {
           },
           {
             label: "Revise",
-            content: (
-              <ReviseTab />
-            ),
+            content: <ReviseTab />,
           },
         ]}
       />
