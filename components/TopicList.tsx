@@ -13,7 +13,7 @@ export default function TopicList({ topics, problems }: TopicListProps) {
         <TopicCard
           key={topic}
           topic={topic}
-          questionCount={problems.filter((p) => p.tags[0] === topic).length}
+          problems={problems}
         />
       ))}
     </div>

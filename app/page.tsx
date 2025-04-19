@@ -1,7 +1,7 @@
 "use client"
 
-import { useState } from "react";
-import { topics, problems, subgroups } from "@/app/consts";
+import { useState, useEffect } from "react";
+import { topics, subgroups } from "@/app/consts";
 import TopicList from "@/components/TopicList";
 import ProblemsAccordion from "@/components/ProblemsAccordion";
 import ProgressBar from "@/components/ProgressBar";
@@ -9,6 +9,27 @@ import ProgressBar from "@/components/ProgressBar";
 
 export default function Home() {
   const [selectedTopic] = useState<string | null>(null);
+  const [problems, setProblems] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    async function fetchProblems() {
+      setLoading(true);
+      setError(null);
+      try {
+        const res = await fetch("/api/problems");
+        if (!res.ok) throw new Error("Failed to fetch problems");
+        const data = await res.json();
+        setProblems(data);
+      } catch (err: any) {
+        setError(err.message || "Unknown error");
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchProblems();
+  }, []);
 
   const completed = problems.filter(p => p.status === "Solved").length;
   const total = problems.length;
@@ -22,13 +43,18 @@ export default function Home() {
       </p>
       <p className="mb-6">Start Solving</p>
 
-      <TopicList topics={topics} problems={problems} />
-
-      {selectedTopic && (
-        <div className="mt-12">
-          <h2 className="text-xl font-semibold mb-4">{selectedTopic}</h2>
-          <ProblemsAccordion selectedTopic={selectedTopic} subgroups={subgroups} problems={problems} />
-        </div>
+      {loading && <div>Loading problems...</div>}
+      {error && <div className="text-red-500">{error}</div>}
+      {!loading && !error && (
+        <>
+          <TopicList topics={topics} problems={problems} />
+          {selectedTopic && (
+            <div className="mt-12">
+              <h2 className="text-xl font-semibold mb-4">{selectedTopic}</h2>
+              <ProblemsAccordion selectedTopic={selectedTopic} subgroups={subgroups} problems={problems} />
+            </div>
+          )}
+        </>
       )}
     </main>
   );

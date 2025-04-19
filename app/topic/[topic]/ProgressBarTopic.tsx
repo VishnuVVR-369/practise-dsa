@@ -1,11 +1,12 @@
 import ProgressBar from "@/components/ProgressBar";
-import { problems, subgroups } from "@/app/consts";
+import { subgroups } from "@/app/consts";
 
 interface ProgressBarTopicProps {
   topic: string;
+  problems: any[];
 }
 
-export default function ProgressBarTopic({ topic }: ProgressBarTopicProps) {
+export default function ProgressBarTopic({ topic, problems }: ProgressBarTopicProps) {
   const topicProblems = problems.filter(p =>
     subgroups.filter(d => d.title === topic)
         .flatMap(d => d.subgroups)

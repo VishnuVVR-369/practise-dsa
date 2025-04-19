@@ -12,7 +12,23 @@ export default function ProblemRow({ problem }: ProblemRowProps) {
       <td className="py-3 px-2 text-center">
         <input
           type="checkbox"
-          onClick={() => console.log(problem.id)}
+          onClick={async () => {
+            try {
+              const res = await fetch('/api/solve-problem', {
+                method: 'PATCH',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ id: problem.id }),
+              });
+              if (res.ok) {
+                console.log('Problem marked as solved:', problem.id);
+              } else {
+                const err = await res.json();
+                console.error('Failed to update problem:', err.error);
+              }
+            } catch (e) {
+              console.error('Network error:', e);
+            }
+          }}
           className="form-checkbox h-4 w-4 text-blue-600 cursor-pointer"
         />
       </td>
