@@ -1,41 +1,63 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import type { Problem } from "@/app/consts";
 
 interface ProblemRowProps {
   problem: Problem;
+  onStatusChange?: (id: string, newStatus: string) => void;
 }
 
-export default function ProblemRow({ problem }: ProblemRowProps) {
+import { useState } from "react";
+
+export default function ProblemRow({
+  problem,
+  onStatusChange,
+}: ProblemRowProps) {
+  const [localStatus, setLocalStatus] = useState(problem.status);
+
   return (
     <tr key={problem.id} className="hover:bg-blue-50 transition-colors">
       <td className="py-3 px-2 text-center">
         <input
           type="checkbox"
-          onClick={async () => {
+          checked={localStatus === "Solved"}
+          onChange={async () => {
+            const nextStatus = localStatus === "Solved" ? "Unsolved" : "Solved";
+            setLocalStatus(nextStatus); // Optimistically update UI
+            if (onStatusChange) onStatusChange(problem.id, nextStatus);
             try {
-              const res = await fetch('/api/solve-problem', {
-                method: 'PATCH',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ id: problem.id }),
+              const res = await fetch("/api/solve-problem", {
+                method: "PATCH",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ id: problem.id, status: nextStatus }),
               });
               if (res.ok) {
-                console.log('Problem marked as solved:', problem.id);
+                console.log(`Problem marked as ${nextStatus}:`, problem.id);
               } else {
                 const err = await res.json();
-                console.error('Failed to update problem:', err.error);
+                setLocalStatus(localStatus); // Revert on error
+                if (onStatusChange) onStatusChange(problem.id, localStatus);
+                console.error("Failed to update problem:", err.error);
               }
             } catch (e) {
-              console.error('Network error:', e);
+              setLocalStatus(localStatus); // Revert on error
+              if (onStatusChange) onStatusChange(problem.id, localStatus);
+              console.error("Network error:", e);
             }
           }}
           className="form-checkbox h-4 w-4 text-blue-600 cursor-pointer"
         />
       </td>
-      <td className="py-3 px-4 text-sm font-medium max-w-xs break-words">{problem.title}</td>
+      <td className="py-3 px-4 text-sm font-medium max-w-xs break-words">
+        {problem.title}
+      </td>
       <td
         className={`py-3 px-4 text-sm font-semibold whitespace-nowrap ${
-          problem.difficulty === "Easy"
+          problem.difficulty === "Theory"
+            ? "text-gray-400"
+            : problem.difficulty === "Easy"
             ? "text-green-600"
             : problem.difficulty === "Medium"
             ? "text-orange-500"

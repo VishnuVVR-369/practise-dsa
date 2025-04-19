@@ -1,7 +1,7 @@
-const path = require('path');
-require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
+const path = require("path");
+require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
 const { MongoClient } = require("mongodb");
-const { problems } = require('./problems');
+const { problems } = require("./problems");
 
 const uri = process.env.DATABASE_URL;
 const dbName = "practise-dsa";
@@ -30,7 +30,11 @@ async function ingest() {
       const chunk = chunks[i];
       try {
         const result = await collection.insertMany(chunk);
-        console.log(`Inserted chunk ${i + 1}/${chunks.length}: ${result.insertedCount} documents.`);
+        console.log(
+          `Inserted chunk ${i + 1}/${chunks.length}: ${
+            result.insertedCount
+          } documents.`
+        );
       } catch (err) {
         console.error(`Error inserting chunk ${i + 1}:`, err);
         break;

@@ -3,7 +3,7 @@ import { MongoClient } from "mongodb";
 
 export async function PATCH(req: Request) {
   try {
-    const { id } = await req.json();
+    const { id, status } = await req.json();
     if (!id) return NextResponse.json({ error: "Missing id" }, { status: 400 });
 
     const uri = process.env.DATABASE_URL;
@@ -12,17 +12,25 @@ export async function PATCH(req: Request) {
     const db = client.db("practise-dsa");
     const collection = db.collection("problems");
 
-    const now = new Date();
-    const result = await collection.updateOne(
-      { id },
-      { $set: { status: "Solved", dateSolved: now.toISOString() } }
-    );
+    let update;
+    if (status === "Unsolved") {
+      update = { $set: { status: "Unsolved", dateSolved: null } };
+    } else {
+      update = {
+        $set: { status: "Solved", dateSolved: new Date().toISOString() },
+      };
+    }
+
+    const result = await collection.updateOne({ id }, update);
     await client.close();
 
     if (result.modifiedCount === 1) {
       return NextResponse.json({ success: true });
     } else {
-      return NextResponse.json({ error: "Problem not found or not updated" }, { status: 404 });
+      return NextResponse.json(
+        { error: "Problem not found or not updated" },
+        { status: 404 }
+      );
     }
   } catch (err) {
     console.log(err);

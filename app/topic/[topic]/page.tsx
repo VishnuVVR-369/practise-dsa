@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { useParams } from "next/navigation";
 import { subgroups } from "@/app/consts";
@@ -40,7 +40,16 @@ export default function TopicPage() {
       {!loading && !error && (
         <>
           <ProgressBarTopic topic={topic} problems={problems} />
-          <ProblemsAccordion selectedTopic={topic} subgroups={subgroups} problems={problems} />
+          <ProblemsAccordion
+            selectedTopic={topic}
+            subgroups={subgroups}
+            problems={problems}
+            onStatusChange={(id, newStatus) => {
+              setProblems((prev) =>
+                prev.map((p) => (p.id === id ? { ...p, status: newStatus } : p))
+              );
+            }}
+          />
         </>
       )}
     </main>
