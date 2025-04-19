@@ -10,11 +10,12 @@ export const topics: string[] = [
   'Queues',
   'Binary Search',
   'Bit Manipulation',
-  'Recursion & Backtracking',
-  'Tree',
+  'Recursion Backtracking',
+  'Binary Tree',
+  'Binary Search Tree',
   'Greedy',
   'Dynamic Programming',
-  'String Matching Algos',
+  'String Matching',
   'Combinatorics & Geometry',
   'Heap & PQ',
   'Tries',
@@ -14948,7 +14949,7 @@ export const subgroups = [
   },
   {
     "id": "19",
-    "title": "Heap Priority Queue",
+    "title": "Heap & PQ",
     "description": "",
     "subgroups": [
       {
@@ -15225,7 +15226,7 @@ export const subgroups = [
   },
   {
     "id": "22",
-    "title": "Dynamic Programming 1",
+    "title": "Dynamic Programming",
     "description": "",
     "subgroups": [
       {
@@ -15687,7 +15688,7 @@ export const subgroups = [
   },
   {
     "id": "24",
-    "title": "Combinatorics and Geometry",
+    "title": "Combinatorics & Geometry",
     "description": "",
     "subgroups": [
       {
@@ -15917,7 +15918,7 @@ export const subgroups = [
   },
   {
     "id": "27",
-    "title": "String Matching Algos",
+    "title": "String Matching",
     "description": "",
     "subgroups": [
       {
