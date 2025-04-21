@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
+import NotificationScheduler from "./NotificationScheduler";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -16,6 +17,14 @@ export const metadata: Metadata = {
   title: "Practise DSA",
   description: "Practise and revise the right way using spaced repetition",
   keywords: ["DSA", "Practise", "Revise", "Spaced Repetition"],
+  icons: {
+    icon: [
+      {
+        url: "/faang.png",
+        href: "/faang.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -25,9 +34,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/faang.png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <NotificationScheduler />
         {children}
       </body>
     </html>
