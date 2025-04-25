@@ -26,7 +26,7 @@ export default function NotificationScheduler() {
       const timer = setTimeout(() => {
         new Notification("Revise DSA", {
           body: "Time to revise DSA! Click to open app.",
-          icon: "/favicon.ico",
+          icon: "/faang.png",
         });
       }, timeout);
       return () => clearTimeout(timer);

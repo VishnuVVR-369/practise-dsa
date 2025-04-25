@@ -7,6 +7,7 @@ import ProblemsAccordion from "@/components/ProblemsAccordion";
 import ProgressBar from "@/components/ProgressBar";
 import TabView from "@/components/TabView";
 import ReviseTab from "@/components/ReviseTab";
+import StatsCharts from "@/components/StatsCharts";
 
 export default function Home() {
   const [selectedTopic] = useState<string | null>(null);
@@ -38,6 +39,9 @@ export default function Home() {
   return (
     <main className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-2">Learn DSA the right way</h1>
+      {loading && <div>Loading problems...</div>}
+      {error && <div className="text-red-500">{error}</div>}
+      {!loading && !error && <StatsCharts problems={problems} />}
       <TabView
         className="mt-4"
         tabs={[
