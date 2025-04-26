@@ -8,6 +8,7 @@ ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend,
 export interface Problem {
   status: string;
   dateSolved?: string; // ISO string
+  difficulty?: 'Easy' | 'Medium' | 'Hard';
 }
 
 function groupByDay(problems: Problem[]) {
@@ -33,6 +34,27 @@ function groupByWeek(problems: Problem[]) {
     }
   });
   return weekly;
+}
+
+function getLongestStreak(data: number[]): number {
+  let maxStreak = 0;
+  let currentStreak = 0;
+  for (let i = 0; i < data.length; i++) {
+    if (data[i] > 0) {
+      currentStreak++;
+      if (currentStreak > maxStreak) maxStreak = currentStreak;
+    } else {
+      currentStreak = 0;
+    }
+  }
+  return maxStreak;
+}
+
+function populationStdDev(data: number[]): number {
+  if (data.length === 0) return 0;
+  const mean = data.reduce((a, b) => a + b, 0) / data.length;
+  const variance = data.reduce((sum, x) => sum + Math.pow(x - mean, 2), 0) / data.length;
+  return Math.sqrt(variance);
 }
 
 export default function StatsCharts({ problems }: { problems: Problem[] }) {
@@ -83,22 +105,69 @@ export default function StatsCharts({ problems }: { problems: Problem[] }) {
     weeklyData = weeks.map(week => weekly[week] || 0);
   }
 
+  // Count solved problems by difficulty
+  const solvedEasy = problems.filter(p => p.status === 'Solved' && p.difficulty === 'Easy').length;
+  const solvedMedium = problems.filter(p => p.status === 'Solved' && p.difficulty === 'Medium').length;
+  const solvedHard = problems.filter(p => p.status === 'Solved' && p.difficulty === 'Hard').length;
+
   return (
-    <div className="w-full flex flex-col md:flex-row gap-8 my-8">
-      <div className="w-full md:w-1/2">
-        <h2 className="text-xl font-semibold mb-2">Daily Solved Problems</h2>
-        {/* Daily stats summary */}
-        <div className="flex flex-wrap gap-4 mb-4">
-          <div className="bg-green-100 text-green-800 px-4 py-2 rounded shadow text-sm">
-            <span className="font-bold">Days Achieved Target:</span> {dailyData.filter(x => x >= 8).length}
-          </div>
-          <div className="bg-red-100 text-red-800 px-4 py-2 rounded shadow text-sm">
-            <span className="font-bold">Days Missed Target:</span> {dailyData.filter(x => x > 0 && x < 8).length}
-          </div>
-          <div className="bg-blue-100 text-blue-800 px-4 py-2 rounded shadow text-sm">
-            <span className="font-bold">Average/Day:</span> {dailyData.length ? (dailyData.reduce((a, b) => a + b, 0) / dailyData.length).toFixed(2) : 0}
+    <>
+              {/* Enhanced Daily Stats Summary */}
+              <div className="mb-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            {/* Target Achieved */}
+            <div className="flex flex-col items-center bg-white/80 border border-green-200 rounded-xl shadow-sm p-4 transition-transform hover:-translate-y-1 hover:shadow-lg">
+              <span className="text-3xl mb-1">🎯</span>
+              <span className="text-xl font-bold text-green-700">{dailyData.filter(x => x >= 8).length}</span>
+              <span className="text-xs text-green-800 font-medium mt-1">Target Achieved</span>
+            </div>
+            {/* Target Missed */}
+            <div className="flex flex-col items-center bg-white/80 border border-red-200 rounded-xl shadow-sm p-4 transition-transform hover:-translate-y-1 hover:shadow-lg">
+              <span className="text-3xl mb-1">❗</span>
+              <span className="text-xl font-bold text-red-700">{dailyData.filter(x => x > 0 && x < 8).length}</span>
+              <span className="text-xs text-red-800 font-medium mt-1">Target Missed</span>
+            </div>
+            {/* Average/Day */}
+            <div className="flex flex-col items-center bg-white/80 border border-blue-200 rounded-xl shadow-sm p-4 transition-transform hover:-translate-y-1 hover:shadow-lg">
+              <span className="text-3xl mb-1">📊</span>
+              <span className="text-xl font-bold text-blue-700">{dailyData.length ? (dailyData.reduce((a, b) => a + b, 0) / dailyData.length).toFixed(2) : 0}</span>
+              <span className="text-xs text-blue-800 font-medium mt-1">Avg/Day</span>
+            </div>
+            {/* Streak */}
+            <div className="flex flex-col items-center bg-white/80 border border-yellow-200 rounded-xl shadow-sm p-4 transition-transform hover:-translate-y-1 hover:shadow-lg">
+              <span className="text-3xl mb-1">🔥</span>
+              <span className="text-xl font-bold text-yellow-700">{getLongestStreak(dailyData)}</span>
+              <span className="text-xs text-yellow-800 font-medium mt-1">Longest Streak</span>
+            </div>
+            {/* Consistency (Std Dev) */}
+            <div className="flex flex-col items-center bg-white/80 border border-purple-200 rounded-xl shadow-sm p-4 transition-transform hover:-translate-y-1 hover:shadow-lg">
+              <span className="text-3xl mb-1">📈</span>
+              <span className="text-xl font-bold text-purple-700">{dailyData.length ? populationStdDev(dailyData).toFixed(2) : 0}</span>
+              <span className="text-xs text-purple-800 font-medium mt-1">Consistency</span>
+            </div>
+            {/* Easy */}
+            <div className="flex flex-col items-center bg-white/80 border border-gray-200 rounded-xl shadow-sm p-4 transition-transform hover:-translate-y-1 hover:shadow-lg">
+              <span className="text-3xl mb-1">🟢</span>
+              <span className="text-xl font-bold text-gray-700">{solvedEasy} / {problems.filter(p => p.difficulty === 'Easy').length}</span>
+              <span className="text-xs text-gray-700 font-medium mt-1">Easy</span>
+            </div>
+            {/* Medium */}
+            <div className="flex flex-col items-center bg-white/80 border border-orange-200 rounded-xl shadow-sm p-4 transition-transform hover:-translate-y-1 hover:shadow-lg">
+              <span className="text-3xl mb-1">🟠</span>
+              <span className="text-xl font-bold text-orange-700">{solvedMedium} / {problems.filter(p => p.difficulty === 'Medium').length}</span>
+              <span className="text-xs text-orange-700 font-medium mt-1">Medium</span>
+            </div>
+            {/* Hard */}
+            <div className="flex flex-col items-center bg-white/80 border border-red-200 rounded-xl shadow-sm p-4 transition-transform hover:-translate-y-1 hover:shadow-lg">
+              <span className="text-3xl mb-1">🔴</span>
+              <span className="text-xl font-bold text-red-700">{solvedHard} / {problems.filter(p => p.difficulty === 'Hard').length}</span>
+              <span className="text-xs text-red-700 font-medium mt-1">Hard</span>
+            </div>
           </div>
         </div>
+        <div className="w-full flex flex-col md:flex-row gap-8 my-8">
+      <div className="w-full md:w-1/2">
+        <h2 className="text-xl font-semibold mb-2">Daily Solved Problems</h2>
         <Line
           height={240}
           data={{
@@ -165,5 +234,7 @@ export default function StatsCharts({ problems }: { problems: Problem[] }) {
         />
       </div>
     </div>
+    </>
+    
   );
 }

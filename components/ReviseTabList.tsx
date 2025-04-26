@@ -88,6 +88,8 @@ export default function ReviseTabList({ problems, label }: ReviseTabListProps) {
                             src="/leetcode.svg"
                             alt="LeetCode"
                             className="w-7 h-7"
+                            width={24}
+                            height={24}
                           />
                         </a>
                       );
