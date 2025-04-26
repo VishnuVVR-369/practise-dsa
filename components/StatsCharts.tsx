@@ -1,8 +1,9 @@
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, PointElement, LineElement } from 'chart.js';
 import { Bar, Line } from 'react-chartjs-2';
+import annotationPlugin from 'chartjs-plugin-annotation';
 import React from 'react';
 
-ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, PointElement, LineElement);
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, PointElement, LineElement, annotationPlugin);
 
 export interface Problem {
   status: string;
@@ -86,7 +87,20 @@ export default function StatsCharts({ problems }: { problems: Problem[] }) {
     <div className="w-full flex flex-col md:flex-row gap-8 my-8">
       <div className="w-full md:w-1/2">
         <h2 className="text-xl font-semibold mb-2">Daily Solved Problems</h2>
+        {/* Daily stats summary */}
+        <div className="flex flex-wrap gap-4 mb-4">
+          <div className="bg-green-100 text-green-800 px-4 py-2 rounded shadow text-sm">
+            <span className="font-bold">Days Achieved Target:</span> {dailyData.filter(x => x >= 8).length}
+          </div>
+          <div className="bg-red-100 text-red-800 px-4 py-2 rounded shadow text-sm">
+            <span className="font-bold">Days Missed Target:</span> {dailyData.filter(x => x > 0 && x < 8).length}
+          </div>
+          <div className="bg-blue-100 text-blue-800 px-4 py-2 rounded shadow text-sm">
+            <span className="font-bold">Average/Day:</span> {dailyData.length ? (dailyData.reduce((a, b) => a + b, 0) / dailyData.length).toFixed(2) : 0}
+          </div>
+        </div>
         <Line
+          height={240}
           data={{
             labels: dailyLabels,
             datasets: [{
@@ -100,13 +114,42 @@ export default function StatsCharts({ problems }: { problems: Problem[] }) {
           }}
           options={{
             responsive: true,
-            plugins: { legend: { display: false }, title: { display: false } },
+            plugins: {
+              legend: { display: false },
+              title: { display: false },
+              annotation: {
+                annotations: {
+                  targetLine: {
+                    type: 'line',
+                    yMin: 8,
+                    yMax: 8,
+                    borderColor: '#f59e42',
+                    borderWidth: 2,
+                    borderDash: [6, 6],
+                    label: {
+                      display: true,
+                      content: 'Target (8)',
+                      position: 'end',
+                      color: '#f59e42',
+                      font: { weight: 'bold' },
+                    },
+                  },
+                },
+              },
+            },
+            scales: {
+              y: {
+                beginAtZero: true,
+                suggestedMax: Math.max(8, ...dailyData) + 2,
+              },
+            },
           }}
         />
       </div>
       <div className="w-full md:w-1/2">
         <h2 className="text-xl font-semibold mb-2">Week-on-Week Solved Problems</h2>
         <Bar
+          height={260}
           data={{
             labels: weeklyLabels,
             datasets: [{
