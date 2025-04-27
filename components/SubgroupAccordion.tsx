@@ -9,11 +9,6 @@ import ProblemRow from "./ProblemRow";
 interface SubgroupAccordionProps {
   subgroup: SubGroup;
   problems: Problem[];
-}
-
-interface SubgroupAccordionProps {
-  subgroup: SubGroup;
-  problems: Problem[];
   onStatusChange?: (id: string, newStatus: string) => void;
 }
 
@@ -22,14 +17,22 @@ export default function SubgroupAccordion({
   problems,
   onStatusChange,
 }: SubgroupAccordionProps) {
+  // Calculate solved and total for this subgroup
+  const subgroupProblems = subgroup.problems.map((pid: string) => problems.find((pr: Problem) => String(pr.id) === pid)).filter(Boolean);
+  const totalCount = subgroupProblems.length;
+  const solvedCount = subgroupProblems.filter((p) => p && p.status === "Solved").length;
+
   return (
     <AccordionItem
       key={subgroup.id}
       value={subgroup.id}
       className="border rounded mb-2"
     >
-      <AccordionTrigger className="text-base font-semibold bg-gray-50 px-2 rounded">
-        {subgroup.title}
+      <AccordionTrigger className="text-base font-semibold bg-gray-50 px-2 rounded flex items-center justify-between">
+        <span>{subgroup.title}</span>
+        <span className="ml-2 text-xs font-semibold text-green-700 bg-green-50 px-2 py-1 rounded">
+          {solvedCount} / {totalCount} Solved
+        </span>
       </AccordionTrigger>
       <AccordionContent className="bg-white">
         <div className="w-full overflow-x-auto rounded shadow mt-2">

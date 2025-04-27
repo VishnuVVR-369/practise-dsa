@@ -27,8 +27,17 @@ function groupByWeek(problems: Problem[]) {
   problems.forEach((p) => {
     if (p.status === 'Solved' && p.dateSolved) {
       const date = new Date(p.dateSolved);
-      const year = date.getFullYear();
-      const week = Math.ceil((((date.getTime() - new Date(year,0,1).getTime()) / 86400000) + new Date(year,0,1).getDay()+1) / 7);
+      // ISO week calculation (weeks start on Monday)
+      // Copy date so don't modify original
+      const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+      // Set to nearest Thursday: current date + 4 - current day number (Monday=1, Sunday=7)
+      const dayNum = d.getUTCDay() === 0 ? 7 : d.getUTCDay();
+      d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+      // Get first day of year
+      const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+      // Calculate ISO week number
+      const week = Math.ceil((((d.getTime() - yearStart.getTime()) / 86400000) + 1) / 7);
+      const year = d.getUTCFullYear();
       const key = `${year}-W${week}`;
       weekly[key] = (weekly[key] || 0) + 1;
     }
@@ -103,6 +112,7 @@ export default function StatsCharts({ problems }: { problems: Problem[] }) {
     }
     weeklyLabels = weeks;
     weeklyData = weeks.map(week => weekly[week] || 0);
+    console.log(weeklyLabels, weeklyData);
   }
 
   // Count solved problems by difficulty
