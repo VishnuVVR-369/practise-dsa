@@ -46,11 +46,11 @@ export default function TopicCard({ topic, problems }: TopicCardProps) {
       <CardDescription className="pl-6">
         Total Problems {topicProblems.length}
       </CardDescription>
-      {completed === 0 && (
-        <CardDescription className="pl-6 italic">
-          Not yet started
-        </CardDescription>
-      )}
+      <CardDescription className="pl-6">
+        <span className="mr-4">Easy: {topicProblems.filter(p => p.difficulty === 'Easy').length}</span>
+        <span className="mr-4">Medium: {topicProblems.filter(p => p.difficulty === 'Medium').length}</span>
+        <span>Hard: {topicProblems.filter(p => p.difficulty === 'Hard').length}</span>
+      </CardDescription>
     </Card>
   );
 }

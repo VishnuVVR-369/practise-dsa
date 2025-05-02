@@ -11,7 +11,7 @@ export default function ProgressBar({
   label,
   className = "",
 }: ProgressBarProps) {
-  const percent = total > 0 ? Math.round((completed / total) * 100) : 0;
+  const percent = total > 0 ? ((completed / total) * 100).toFixed(2) : 0;
   return (
     <div className={`w-full my-2 ${className}`}>
       {label && (
