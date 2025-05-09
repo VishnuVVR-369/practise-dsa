@@ -7,6 +7,7 @@ const problems = [
     problemLink: "NA",
     articleLink: "https://read.learnyard.com/dsa/bubble-sort/",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "2",
@@ -15,6 +16,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "NA",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "3",
@@ -25,6 +27,7 @@ const problems = [
       "https://leetcode.com/problems/insertion-sort-list/description/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "4",
@@ -33,6 +36,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "NA",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "5",
@@ -41,6 +45,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "NA",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "6",
@@ -51,6 +56,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1",
     platform: "GeeksforGeeks",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "7",
@@ -61,6 +67,7 @@ const problems = [
       "https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "8",
@@ -70,6 +77,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/count-of-range-sum",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "9",
@@ -79,6 +87,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/reverse-pairs",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "10",
@@ -89,6 +98,7 @@ const problems = [
       "https://leetcode.com/problems/create-sorted-array-through-instructions/description/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "11",
@@ -99,6 +109,7 @@ const problems = [
       "https://leetcode.com/problems/count-good-triplets-in-an-array/description/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "12",
@@ -109,6 +120,7 @@ const problems = [
       "https://leetcode.com/problems/number-of-pairs-satisfying-inequality/description/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "13",
@@ -117,6 +129,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "NA",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "14",
@@ -126,6 +139,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/sort-an-array/description/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "15",
@@ -134,6 +148,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "NA",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "16",
@@ -144,6 +159,7 @@ const problems = [
       "https://leetcode.com/problems/relative-sort-array/description/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "17",
@@ -154,6 +170,7 @@ const problems = [
       "https://leetcode.com/problems/reduce-array-size-to-the-half/description/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "18",
@@ -163,6 +180,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/maximum-ice-cream-bars/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "19",
@@ -171,6 +189,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "NA",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "20",
@@ -179,6 +198,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "NA",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "21",
@@ -189,6 +209,7 @@ const problems = [
       "https://leetcode.com/problems/top-k-frequent-elements/description/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "22",
@@ -199,6 +220,7 @@ const problems = [
       "https://leetcode.com/problems/sort-characters-by-frequency/description/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "23",
@@ -208,6 +230,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/maximum-gap/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "24",
@@ -218,6 +241,7 @@ const problems = [
       "https://leetcode.com/problems/top-k-frequent-words/description/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "25",
@@ -228,6 +252,7 @@ const problems = [
       "https://leetcode.com/problems/contains-duplicate-iii/description/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "26",
@@ -236,6 +261,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "NA",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "27",
@@ -245,6 +271,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/custom-sort-string/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "28",
@@ -254,6 +281,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/largest-number/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "29",
@@ -263,6 +291,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/sort-the-jumbled-numbers/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "30",
@@ -273,6 +302,7 @@ const problems = [
       "https://leetcode.com/problems/rank-teams-by-votes/description/",
     platform: "LeetCode",
     tags: ["Sorting"],
+    completionDifficulty: undefined,
   },
   {
     id: "31",
@@ -283,6 +313,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/reverse-string",
     articleLink: "https://read.learnyard.com/dsa/reverse-string/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "32",
@@ -292,6 +323,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/reverse-prefix-of-word",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "33",
@@ -301,6 +333,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/reverse-vowels-of-a-string",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "34",
@@ -310,6 +343,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/reverse-words-in-a-string",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "35",
@@ -319,6 +353,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/reverse-words-in-a-string-iii",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "36",
@@ -328,6 +363,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/valid-palindrome",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "37",
@@ -337,6 +373,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/valid-palindrome-ii",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "38",
@@ -347,6 +384,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/lexicographically-smallest-palindrome",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "39",
@@ -356,6 +394,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/merge-strings-alternately",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "40",
@@ -366,6 +405,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "41",
@@ -376,6 +416,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/merge-sorted-array/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "42",
@@ -385,6 +426,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/largest-merge-of-two-strings",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "43",
@@ -395,6 +437,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/sort-array-by-parity/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "44",
@@ -405,6 +448,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/sort-array-by-parity-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "45",
@@ -415,6 +459,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/rearrange-array-elements-by-sign",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "46",
@@ -425,6 +470,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/remove-duplicates-from-sorted-array",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "47",
@@ -434,6 +480,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/remove-element",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "48",
@@ -444,6 +491,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/shortest-distance-to-a-character ",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "49",
@@ -454,6 +502,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/partition-array-according-to-given-pivot",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "50",
@@ -463,6 +512,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/di-string-match",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "51",
@@ -472,6 +522,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/rotate-array",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "52",
@@ -482,6 +533,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "53",
@@ -491,6 +543,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/apply-operations-to-an-array",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "54",
@@ -501,6 +554,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-all-k-distant-indices-in-an-array",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "55",
@@ -510,6 +564,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/count-binary-substrings",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "56",
@@ -519,6 +574,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/two-sum/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "57",
@@ -528,6 +584,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/3sum",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "58",
@@ -537,6 +594,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/3sum-closest",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "59",
@@ -546,6 +604,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/4sum",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "60",
@@ -555,6 +614,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/sort-colors",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "61",
@@ -565,6 +625,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "62",
@@ -574,6 +635,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/container-with-most-water ",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "63",
@@ -583,6 +645,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/string-compression",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "64",
@@ -592,6 +655,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/separate-black-and-white-balls",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "65",
@@ -601,6 +665,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/watering-plants-ii",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "66",
@@ -610,6 +675,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/move-pieces-to-obtain-a-string",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "67",
@@ -619,6 +685,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/sentence-similarity-iii",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "68",
@@ -628,6 +695,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/next-permutation",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "69",
@@ -637,6 +705,7 @@ const problems = [
     tags: ["Two Pointers"],
     problemLink: "https://leetcode.com/problems/next-greater-element-iii",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "70",
@@ -646,6 +715,7 @@ const problems = [
     tags: ["Prefix Sum"],
     problemLink: "https://leetcode.com/problems/range-sum-query-immutable",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "71",
@@ -656,6 +726,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/left-and-right-sum-differences/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "72",
@@ -666,6 +737,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-vowel-strings-in-ranges/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "73",
@@ -676,6 +748,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-penalty-for-a-shop/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "74",
@@ -686,6 +759,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-good-days-to-rob-the-bank/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "75",
@@ -696,6 +770,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "76",
@@ -705,6 +780,7 @@ const problems = [
     tags: ["Prefix Sum"],
     problemLink: "https://leetcode.com/problems/product-of-array-except-self",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "77",
@@ -715,6 +791,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/product-of-the-last-k-numbers/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "78",
@@ -725,6 +802,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/removing-minimum-number-of-magic-beans/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "79",
@@ -735,6 +813,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-all-good-indices/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "80",
@@ -745,6 +824,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/movement-of-robots/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "81",
@@ -754,6 +834,7 @@ const problems = [
     tags: ["Prefix Sum"],
     problemLink: "https://leetcode.com/problems/range-sum-query-2d-immutable",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "82",
@@ -763,6 +844,7 @@ const problems = [
     tags: ["Prefix Sum"],
     problemLink: "https://leetcode.com/problems/increment-submatrices-by-one/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "83",
@@ -772,6 +854,7 @@ const problems = [
     tags: ["Prefix Sum"],
     problemLink: "https://leetcode.com/problems/power-of-heroes/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "84",
@@ -782,6 +865,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-cost-to-make-array-equal/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "85",
@@ -791,6 +875,7 @@ const problems = [
     tags: ["Prefix Sum"],
     problemLink: "https://leetcode.com/problems/maximum-population-year/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "86",
@@ -801,6 +886,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/points-that-intersect-with-cars/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "87",
@@ -810,6 +896,7 @@ const problems = [
     tags: ["Prefix Sum"],
     problemLink: "https://www.codechef.com/problems/COWA19B",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "88",
@@ -819,6 +906,7 @@ const problems = [
     tags: ["Prefix Sum"],
     problemLink: "https://leetcode.com/problems/car-pooling/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "89",
@@ -828,6 +916,7 @@ const problems = [
     tags: ["Prefix Sum"],
     problemLink: "https://leetcode.com/problems/my-calendar-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "90",
@@ -838,6 +927,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/shifting-letters-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "91",
@@ -847,6 +937,7 @@ const problems = [
     tags: ["Prefix Sum"],
     problemLink: "https://leetcode.com/problems/perfect-rectangle/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "92",
@@ -856,6 +947,7 @@ const problems = [
     tags: ["Prefix Sum"],
     problemLink: "https://leetcode.com/problems/rectangle-area-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "93",
@@ -866,6 +958,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-flowers-in-full-bloom/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "94",
@@ -878,6 +971,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "95",
@@ -888,6 +982,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "96",
@@ -899,6 +994,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "97",
@@ -910,6 +1006,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "98",
@@ -921,6 +1018,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "99",
@@ -931,6 +1029,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "100",
@@ -941,6 +1040,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "101",
@@ -951,6 +1051,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "102",
@@ -961,6 +1062,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "103",
@@ -972,6 +1074,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "104",
@@ -983,6 +1086,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "105",
@@ -994,6 +1098,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "106",
@@ -1003,6 +1108,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "107",
@@ -1015,6 +1121,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "108",
@@ -1024,6 +1131,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "109",
@@ -1034,6 +1142,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "110",
@@ -1043,6 +1152,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "111",
@@ -1053,6 +1163,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "112",
@@ -1063,6 +1174,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "113",
@@ -1073,6 +1185,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "114",
@@ -1082,6 +1195,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "115",
@@ -1091,6 +1205,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "116",
@@ -1101,6 +1216,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "117",
@@ -1111,6 +1227,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "118",
@@ -1120,6 +1237,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "119",
@@ -1129,6 +1247,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "120",
@@ -1141,6 +1260,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "121",
@@ -1150,6 +1270,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "122",
@@ -1161,6 +1282,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "123",
@@ -1171,6 +1293,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "124",
@@ -1181,6 +1304,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "125",
@@ -1191,6 +1315,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "126",
@@ -1201,6 +1326,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "127",
@@ -1211,6 +1337,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "128",
@@ -1221,6 +1348,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "129",
@@ -1230,6 +1358,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "130",
@@ -1239,6 +1368,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "131",
@@ -1248,6 +1378,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "132",
@@ -1257,6 +1388,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "133",
@@ -1266,6 +1398,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "134",
@@ -1276,6 +1409,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "135",
@@ -1285,6 +1419,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "136",
@@ -1294,6 +1429,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "137",
@@ -1304,6 +1440,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Matrix"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "138",
@@ -1314,6 +1451,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-common-elements-between-two-arrays",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "139",
@@ -1323,6 +1461,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/contains-duplicate",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "140",
@@ -1332,6 +1471,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/sum-of-unique-elements",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "141",
@@ -1342,6 +1482,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-all-duplicates-in-an-array",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "142",
@@ -1352,6 +1493,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "143",
@@ -1361,6 +1503,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/unique-number-of-occurrences",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "144",
@@ -1370,6 +1513,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/find-common-characters",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "145",
@@ -1379,6 +1523,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/number-of-good-pairs",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "146",
@@ -1389,6 +1534,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/permutation-difference-between-two-strings",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "147",
@@ -1399,6 +1545,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/check-if-the-sentence-is-pangram",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "148",
@@ -1408,6 +1555,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/decode-the-message",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "149",
@@ -1417,6 +1565,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/replace-elements-in-an-array",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "150",
@@ -1427,6 +1576,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-the-number-of-special-characters-ii",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "151",
@@ -1437,6 +1587,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/reconstruct-original-digits-from-english",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "152",
@@ -1446,6 +1597,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/integer-to-roman",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "153",
@@ -1456,6 +1608,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-words-that-can-be-formed-by-characters",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "154",
@@ -1466,6 +1619,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "155",
@@ -1475,6 +1629,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/sort-the-people",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "156",
@@ -1485,6 +1640,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "157",
@@ -1494,6 +1650,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/increasing-decreasing-string",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "158",
@@ -1504,6 +1661,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/sort-array-by-increasing-frequency",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "159",
@@ -1513,6 +1671,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/sort-characters-by-frequency",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "160",
@@ -1522,6 +1681,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/merge-similar-items",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "161",
@@ -1532,6 +1692,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "162",
@@ -1541,6 +1702,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/clear-digits",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "163",
@@ -1550,6 +1712,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/html-entity-parser",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "164",
@@ -1560,6 +1723,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/largest-substring-between-two-equal-characters",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "165",
@@ -1570,6 +1734,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/remove-letter-to-equalize-frequency",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "166",
@@ -1579,6 +1744,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/distribute-candies",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "167",
@@ -1588,6 +1754,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/path-crossing",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "168",
@@ -1597,6 +1764,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/buddy-strings",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "169",
@@ -1606,6 +1774,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/word-pattern",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "170",
@@ -1615,6 +1784,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/valid-anagram",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "171",
@@ -1625,6 +1795,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "172",
@@ -1634,6 +1805,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/group-anagrams",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "173",
@@ -1643,6 +1815,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/majority-element/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "174",
@@ -1652,6 +1825,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/majority-element-ii",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "175",
@@ -1662,6 +1836,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-all-lonely-numbers-in-the-array",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "176",
@@ -1672,6 +1847,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "177",
@@ -1681,6 +1857,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/first-missing-positive",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "178",
@@ -1691,6 +1868,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/shortest-impossible-sequence-of-rolls",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "179",
@@ -1701,6 +1879,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "180",
@@ -1711,6 +1890,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "181",
@@ -1720,6 +1900,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/isomorphic-strings",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "182",
@@ -1730,6 +1911,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/groups-of-special-equivalent-strings",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "183",
@@ -1739,6 +1921,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/word-subsets",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "184",
@@ -1749,6 +1932,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "185",
@@ -1760,6 +1944,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "186",
@@ -1770,6 +1955,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-the-number-of-good-partitions",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "187",
@@ -1779,6 +1965,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/optimal-partition-of-string",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "188",
@@ -1788,6 +1975,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/custom-sort-string",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "189",
@@ -1798,6 +1986,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/finding-the-users-active-minutes",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "190",
@@ -1808,6 +1997,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "191",
@@ -1818,6 +2008,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "192",
@@ -1828,6 +2019,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "193",
@@ -1838,6 +2030,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "194",
@@ -1847,6 +2040,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/can-convert-string-in-k-moves",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "195",
@@ -1857,6 +2051,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/restore-the-array-from-adjacent-pairs",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "196",
@@ -1866,6 +2061,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/tuple-with-same-product",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "197",
@@ -1876,6 +2072,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/split-the-array-to-make-coprime-products",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "198",
@@ -1885,6 +2082,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/4sum-ii",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "199",
@@ -1895,6 +2093,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-artifacts-that-can-be-extracted",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "200",
@@ -1904,6 +2103,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/brick-wall",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "201",
@@ -1914,6 +2114,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "202",
@@ -1923,6 +2124,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/alphabet-board-path",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "203",
@@ -1932,6 +2134,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/vowel-spellchecker",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "204",
@@ -1941,6 +2144,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/bulls-and-cows",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "205",
@@ -1950,6 +2154,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/card-flipping-game",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "206",
@@ -1960,6 +2165,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-size-of-a-set-after-removals",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "207",
@@ -1970,6 +2176,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-absolute-difference-queries",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "208",
@@ -1980,6 +2187,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "209",
@@ -1990,6 +2198,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "210",
@@ -1999,6 +2208,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/count-number-of-bad-pairs",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "211",
@@ -2009,6 +2219,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-seconds-to-equalize-a-circular-array",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "212",
@@ -2019,6 +2230,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/sum-of-imbalance-numbers-of-all-subarrays",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "213",
@@ -2028,6 +2240,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/grid-illumination",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "214",
@@ -2037,6 +2250,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/maximum-equal-frequency",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "215",
@@ -2046,6 +2260,7 @@ const problems = [
     tags: ["Hashing"],
     problemLink: "https://leetcode.com/problems/rearranging-fruits",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "216",
@@ -2057,6 +2272,7 @@ const problems = [
       "https://leetcode.com/problems/subarray-sum-equals-k/description/",
     articleLink: "https://read.learnyard.com/dsa/subarray-sum-equals-k/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "217",
@@ -2067,6 +2283,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/subarray-sums-divisible-by-k/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "218",
@@ -2077,6 +2294,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/make-sum-divisible-by-p/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "219",
@@ -2087,6 +2305,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-number-of-bad-pairs/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "220",
@@ -2096,6 +2315,7 @@ const problems = [
     tags: ["Hashing", "Prefix Sum"],
     problemLink: "https://leetcode.com/problems/continuous-subarray-sum",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "221",
@@ -2106,6 +2326,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-of-interesting-subarrays/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "222",
@@ -2116,6 +2337,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-number-of-nice-subarrays/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "223",
@@ -2126,6 +2348,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-beautiful-substrings-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "224",
@@ -2136,6 +2359,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "225",
@@ -2146,6 +2370,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/binary-subarrays-with-sum/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "226",
@@ -2156,6 +2381,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-wonderful-substrings/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "227",
@@ -2166,6 +2392,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-the-number-of-beautiful-subarrays/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "228",
@@ -2176,6 +2403,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "229",
@@ -2186,6 +2414,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-subarrays-with-median-k/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "9999",
@@ -2196,6 +2425,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "230",
@@ -2206,6 +2436,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "231",
@@ -2216,6 +2447,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "232",
@@ -2226,6 +2458,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "233",
@@ -2236,6 +2469,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "234",
@@ -2246,6 +2480,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "235",
@@ -2257,6 +2492,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "236",
@@ -2267,6 +2503,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "237",
@@ -2277,6 +2514,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "238",
@@ -2287,6 +2525,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "239",
@@ -2297,6 +2536,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "240",
@@ -2307,6 +2547,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "241",
@@ -2316,6 +2557,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "242",
@@ -2326,6 +2568,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "243",
@@ -2336,6 +2579,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "244",
@@ -2346,6 +2590,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "245",
@@ -2356,6 +2601,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "246",
@@ -2366,6 +2612,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "247",
@@ -2375,6 +2622,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "248",
@@ -2385,6 +2633,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "249",
@@ -2394,6 +2643,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "250",
@@ -2404,6 +2654,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "251",
@@ -2413,6 +2664,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "252",
@@ -2424,6 +2676,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "253",
@@ -2433,6 +2686,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "254",
@@ -2442,6 +2696,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "255",
@@ -2451,6 +2706,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "256",
@@ -2461,6 +2717,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "257",
@@ -2471,6 +2728,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "258",
@@ -2481,6 +2739,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "259",
@@ -2490,6 +2749,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "260",
@@ -2500,6 +2760,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "261",
@@ -2510,6 +2771,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "262",
@@ -2520,6 +2782,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "263",
@@ -2530,6 +2793,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "264",
@@ -2540,6 +2804,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "265",
@@ -2550,6 +2815,7 @@ const problems = [
     status: "Unsolved",
     tags: ["Sliding Window"],
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "266",
@@ -2560,6 +2826,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "267",
@@ -2570,6 +2837,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/intersection-of-two-linked-lists/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "268",
@@ -2579,6 +2847,7 @@ const problems = [
     tags: ["Linked List"],
     problemLink: "https://leetcode.com/problems/middle-of-the-linked-list",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "269",
@@ -2588,6 +2857,7 @@ const problems = [
     tags: ["Linked List"],
     problemLink: "https://leetcode.com/problems/linked-list-cycle/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "270",
@@ -2597,6 +2867,7 @@ const problems = [
     tags: ["Linked List"],
     problemLink: "https://leetcode.com/problems/linked-list-cycle-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "271",
@@ -2606,6 +2877,7 @@ const problems = [
     tags: ["Linked List"],
     problemLink: "https://www.geeksforgeeks.org/problems/find-length-of-loop/0",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "272",
@@ -2615,6 +2887,7 @@ const problems = [
     tags: ["Linked List"],
     problemLink: "https://leetcode.com/problems/reverse-linked-list",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "273",
@@ -2624,6 +2897,7 @@ const problems = [
     tags: ["Linked List"],
     problemLink: "https://leetcode.com/problems/palindrome-linked-list",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "274",
@@ -2633,6 +2907,7 @@ const problems = [
     tags: ["Linked List"],
     problemLink: "https://leetcode.com/problems/reverse-nodes-in-k-group",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "275",
@@ -2642,6 +2917,7 @@ const problems = [
     tags: ["Linked List"],
     problemLink: "https://leetcode.com/problems/odd-even-linked-list/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "276",
@@ -2652,6 +2928,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "277",
@@ -2662,6 +2939,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "278",
@@ -2672,6 +2950,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "279",
@@ -2682,6 +2961,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/0",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "280",
@@ -2691,6 +2971,7 @@ const problems = [
     tags: ["Linked List"],
     problemLink: "https://leetcode.com/problems/add-two-numbers/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "281",
@@ -2701,6 +2982,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/0",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "282",
@@ -2710,6 +2992,7 @@ const problems = [
     tags: ["Linked List"],
     problemLink: "https://leetcode.com/problems/sort-list/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "283",
@@ -2720,6 +3003,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/linked-list-random-node/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "284",
@@ -2730,6 +3014,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/copy-list-with-random-pointer/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "285",
@@ -2740,6 +3025,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "286",
@@ -2750,6 +3036,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/merge-two-sorted-lists/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "287",
@@ -2760,6 +3047,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/merge-k-sorted-lists/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "288",
@@ -2769,6 +3057,7 @@ const problems = [
     tags: ["Linked List"],
     problemLink: "https://leetcode.com/problems/design-hashset/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "289",
@@ -2778,6 +3067,7 @@ const problems = [
     tags: ["Linked List"],
     problemLink: "https://leetcode.com/problems/design-hashmap/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "290",
@@ -2788,6 +3078,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/design-browser-history/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "291",
@@ -2798,6 +3089,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/design-a-text-editor/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "292",
@@ -2807,6 +3099,7 @@ const problems = [
     tags: ["Linked List"],
     problemLink: "https://leetcode.com/problems/all-oone-data-structure/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "293",
@@ -2816,6 +3109,7 @@ const problems = [
     tags: ["Linked List"],
     problemLink: "https://leetcode.com/problems/lru-cache/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "294",
@@ -2825,6 +3119,7 @@ const problems = [
     tags: ["Linked List"],
     problemLink: "https://leetcode.com/problems/lfu-cache",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "295",
@@ -2834,6 +3129,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/valid-parentheses/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "296",
@@ -2844,6 +3140,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "297",
@@ -2853,6 +3150,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/remove-outermost-parentheses",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "298",
@@ -2863,6 +3161,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "299",
@@ -2873,6 +3172,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "300",
@@ -2883,6 +3183,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "301",
@@ -2893,6 +3194,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "302",
@@ -2903,6 +3205,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "303",
@@ -2912,6 +3215,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/score-of-parentheses",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "304",
@@ -2922,6 +3226,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "305",
@@ -2931,6 +3236,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/longest-valid-parentheses/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "306",
@@ -2941,6 +3247,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/problems/redundant-parenthesis--170647/1",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "307",
@@ -2950,6 +3257,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/min-stack/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "308",
@@ -2959,6 +3267,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/maximum-frequency-stack/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "309",
@@ -2969,6 +3278,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/design-a-stack-with-increment-operation/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "310",
@@ -2979,6 +3289,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/dinner-plate-stacks/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "311",
@@ -2988,6 +3299,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/merge-intervals/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "312",
@@ -2997,6 +3309,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/insert-interval/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "313",
@@ -3006,6 +3319,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/asteroid-collision/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "314",
@@ -3016,6 +3330,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/construct-smallest-number-from-di-string/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "315",
@@ -3026,6 +3341,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "316",
@@ -3035,6 +3351,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/simplify-path/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "317",
@@ -3044,6 +3361,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/basic-calculator/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "318",
@@ -3053,6 +3371,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/basic-calculator-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "319",
@@ -3062,6 +3381,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/basic-calculator-iv/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "320",
@@ -3072,6 +3392,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/replace-non-coprime-numbers-in-array/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "321",
@@ -3081,6 +3402,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/robot-collisions/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "322",
@@ -3090,6 +3412,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/number-of-atoms/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "323",
@@ -3100,6 +3423,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "324",
@@ -3110,6 +3434,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/next-greater-element-i",
     articleLink: "https://read.learnyard.com/dsa/next-greater-element-i/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "325",
@@ -3119,6 +3444,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/next-greater-element-ii",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "326",
@@ -3128,6 +3454,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/next-greater-element-iv",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "327",
@@ -3137,6 +3464,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/daily-temperatures",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "328",
@@ -3146,6 +3474,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/car-fleet/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "329",
@@ -3155,6 +3484,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/car-fleet-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "330",
@@ -3164,6 +3494,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/132-pattern",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "331",
@@ -3174,6 +3505,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/smallest-subsequence-of-distinct-characters",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "332",
@@ -3184,6 +3516,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-submatrices-with-all-ones",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "333",
@@ -3193,6 +3526,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/remove-duplicate-letters",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "334",
@@ -3203,6 +3537,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/the-number-of-weak-characters-in-the-game",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "335",
@@ -3212,6 +3547,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/maximum-subarray-min-product",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "336",
@@ -3221,6 +3557,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/sum-of-subarray-minimums",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "337",
@@ -3231,6 +3568,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/shortest-unsorted-continuous-subarray",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "338",
@@ -3240,6 +3578,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/remove-k-digits",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "339",
@@ -3250,6 +3589,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/beautiful-towers-i/description/ ",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "340",
@@ -3259,6 +3599,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/beautiful-towers-ii",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "341",
@@ -3268,6 +3609,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/online-stock-span",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "342",
@@ -3278,6 +3620,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "343",
@@ -3288,6 +3631,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-score-of-a-good-subarray",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "344",
@@ -3298,6 +3642,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-visible-people-in-a-queue",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "345",
@@ -3307,6 +3652,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/trapping-rain-water",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "346",
@@ -3316,6 +3662,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/maximal-rectangle",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "347",
@@ -3325,6 +3672,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/largest-rectangle-in-histogram",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "348",
@@ -3334,6 +3682,7 @@ const problems = [
     tags: ["Stack"],
     problemLink: "https://leetcode.com/problems/create-maximum-number",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "349",
@@ -3344,6 +3693,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "350",
@@ -3354,6 +3704,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/sum-of-total-strength-of-wizards/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "351",
@@ -3364,6 +3715,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-the-number-of-subarrays-where-boundary-elements-are-maximum/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "352",
@@ -3374,6 +3726,7 @@ const problems = [
     platform: "GeeksforGeeks",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "353",
@@ -3384,6 +3737,7 @@ const problems = [
     platform: "GeeksforGeeks",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "354",
@@ -3393,6 +3747,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "355",
@@ -3402,6 +3757,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "356",
@@ -3412,6 +3768,7 @@ const problems = [
     platform: "GeeksforGeeks",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "357",
@@ -3422,6 +3779,7 @@ const problems = [
     platform: "GeeksforGeeks",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "358",
@@ -3431,6 +3789,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "359",
@@ -3441,6 +3800,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "360",
@@ -3451,6 +3811,7 @@ const problems = [
     platform: "GeeksforGeeks",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "361",
@@ -3461,6 +3822,7 @@ const problems = [
     platform: "GeeksforGeeks",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "362",
@@ -3471,6 +3833,7 @@ const problems = [
     platform: "GeeksforGeeks",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "363",
@@ -3481,6 +3844,7 @@ const problems = [
     platform: "GeeksforGeeks",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "364",
@@ -3490,6 +3854,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "365",
@@ -3500,6 +3865,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "366",
@@ -3510,6 +3876,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "367",
@@ -3520,6 +3887,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "368",
@@ -3529,6 +3897,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "369",
@@ -3539,6 +3908,7 @@ const problems = [
     platform: "GeeksforGeeks",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "370",
@@ -3548,6 +3918,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "371",
@@ -3557,6 +3928,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "372",
@@ -3566,6 +3938,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "373",
@@ -3575,6 +3948,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "374",
@@ -3584,6 +3958,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "375",
@@ -3594,6 +3969,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "376",
@@ -3603,6 +3979,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Queues"],
+    completionDifficulty: undefined,
   },
   {
     id: "377",
@@ -3612,6 +3989,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "378",
@@ -3621,6 +3999,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "379",
@@ -3630,6 +4009,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "380",
@@ -3640,6 +4020,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "381",
@@ -3650,6 +4031,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "382",
@@ -3660,6 +4042,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "383",
@@ -3670,6 +4053,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "384",
@@ -3679,6 +4063,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "385",
@@ -3688,6 +4073,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "386",
@@ -3698,6 +4084,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "387",
@@ -3707,6 +4094,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "388",
@@ -3717,6 +4105,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "389",
@@ -3727,6 +4116,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "390",
@@ -3736,6 +4126,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "391",
@@ -3746,6 +4137,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "392",
@@ -3755,6 +4147,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "393",
@@ -3764,6 +4157,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "394",
@@ -3773,6 +4167,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "395",
@@ -3783,6 +4178,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "396",
@@ -3792,6 +4188,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "397",
@@ -3802,6 +4199,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "398",
@@ -3812,6 +4210,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "399",
@@ -3822,6 +4221,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "400",
@@ -3832,6 +4232,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "401",
@@ -3842,6 +4243,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "402",
@@ -3852,6 +4254,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "403",
@@ -3862,6 +4265,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "404",
@@ -3871,6 +4275,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "405",
@@ -3880,6 +4285,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "406",
@@ -3890,6 +4296,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "407",
@@ -3899,6 +4306,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "408",
@@ -3908,6 +4316,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "409",
@@ -3918,6 +4327,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "410",
@@ -3928,6 +4338,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "411",
@@ -3937,6 +4348,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "412",
@@ -3946,6 +4358,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "413",
@@ -3956,6 +4369,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "414",
@@ -3966,6 +4380,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "415",
@@ -3976,6 +4391,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "416",
@@ -3986,6 +4402,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "417",
@@ -3996,6 +4413,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "418",
@@ -4005,6 +4423,7 @@ const problems = [
     platform: "GeeksForGeeks",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "419",
@@ -4015,6 +4434,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "420",
@@ -4025,6 +4445,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "421",
@@ -4034,6 +4455,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "422",
@@ -4044,6 +4466,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "423",
@@ -4054,6 +4477,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "424",
@@ -4064,6 +4488,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "425",
@@ -4074,6 +4499,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "426",
@@ -4083,6 +4509,7 @@ const problems = [
     platform: "GeeksForGeeks",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "427",
@@ -4093,6 +4520,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "428",
@@ -4102,6 +4530,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "429",
@@ -4112,6 +4541,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "430",
@@ -4123,6 +4553,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "431",
@@ -4133,6 +4564,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "432",
@@ -4142,6 +4574,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "433",
@@ -4152,6 +4585,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "434",
@@ -4161,6 +4595,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "435",
@@ -4171,6 +4606,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "436",
@@ -4181,6 +4617,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "437",
@@ -4191,6 +4628,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "438",
@@ -4201,6 +4639,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "439",
@@ -4210,6 +4649,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "440",
@@ -4220,6 +4660,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "441",
@@ -4229,6 +4670,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "442",
@@ -4239,6 +4681,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "443",
@@ -4249,6 +4692,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "444",
@@ -4259,6 +4703,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "445",
@@ -4269,6 +4714,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "446",
@@ -4279,6 +4725,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "447",
@@ -4289,6 +4736,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "448",
@@ -4299,6 +4747,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "449",
@@ -4309,6 +4758,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "450",
@@ -4319,6 +4769,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "451",
@@ -4329,6 +4780,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "452",
@@ -4339,6 +4791,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "453",
@@ -4349,6 +4802,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "454",
@@ -4359,6 +4813,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "455",
@@ -4369,6 +4824,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "456",
@@ -4379,6 +4835,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "457",
@@ -4389,6 +4846,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "458",
@@ -4399,6 +4857,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "459",
@@ -4409,6 +4868,7 @@ const problems = [
     platform: "Leetcode",
     status: "Unsolved",
     tags: ["Binary Search"],
+    completionDifficulty: undefined,
   },
   {
     id: "460",
@@ -4419,6 +4879,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/decimal-to-binary-1587115620/1",
     platform: "GeeksForGeeks",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "461",
@@ -4429,6 +4890,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/bit-manipulation-1666686020/0",
     platform: "GeeksForGeeks",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "462",
@@ -4439,6 +4901,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1",
     platform: "GeeksForGeeks",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "463",
@@ -4448,6 +4911,7 @@ const problems = [
     problemLink: "https://www.geeksforgeeks.org/problems/odd-or-even3618/1",
     platform: "GeeksForGeeks",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "464",
@@ -4458,6 +4922,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/set-the-rightmost-unset-bit4436/1",
     platform: "GeeksForGeeks",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "465",
@@ -4467,6 +4932,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/number-complement/description/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "466",
@@ -4476,6 +4942,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/number-of-1-bits/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "467",
@@ -4485,6 +4952,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/counting-bits/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "468",
@@ -4495,6 +4963,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/count-total-set-bits-1587115620/1",
     platform: "GeeksForGeeks",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "469",
@@ -4504,6 +4973,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/reverse-bits/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "470",
@@ -4513,6 +4983,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/power-of-two/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "471",
@@ -4522,6 +4993,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/power-of-four",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "472",
@@ -4531,6 +5003,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/hamming-distance/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "473",
@@ -4540,6 +5013,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/add-binary/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "474",
@@ -4549,6 +5023,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/total-hamming-distance/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "475",
@@ -4558,6 +5033,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/utf-8-validation ",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "476",
@@ -4567,6 +5043,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/single-number-ii/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "477",
@@ -4576,6 +5053,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/divide-two-integers/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "478",
@@ -4585,6 +5063,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/decode-xored-array ",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "479",
@@ -4594,6 +5073,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/single-number/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "480",
@@ -4603,6 +5083,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/single-number-iii/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "481",
@@ -4613,6 +5094,7 @@ const problems = [
       "https://leetcode.com/problems/sum-of-two-integers/description/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "482",
@@ -4623,6 +5105,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/swap-two-numbers3844/1",
     platform: "GeeksForGeeks",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "483",
@@ -4632,6 +5115,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/missing-number/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "484",
@@ -4641,6 +5125,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/decode-xored-permutation",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "485",
@@ -4651,6 +5136,7 @@ const problems = [
       "https://leetcode.com/problems/find-the-original-array-of-prefix-xor",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "486",
@@ -4660,6 +5146,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/gray-code/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "487",
@@ -4669,6 +5156,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/xor-queries-of-a-subarray/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "488",
@@ -4678,6 +5166,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/1979/B",
     platform: "Codeforces",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "489",
@@ -4688,6 +5177,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "490",
@@ -4697,6 +5187,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/maximum-xor-product",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "491",
@@ -4706,6 +5197,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/neighboring-bitwise-xor",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "492",
@@ -4715,6 +5207,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "493",
@@ -4725,6 +5218,7 @@ const problems = [
       "https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "494",
@@ -4734,6 +5228,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/find-longest-awesome-substring",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "495",
@@ -4744,6 +5239,7 @@ const problems = [
       "https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "496",
@@ -4753,6 +5249,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/minimum-array-end",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "497",
@@ -4762,6 +5259,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/maximum-or/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "498",
@@ -4772,6 +5270,7 @@ const problems = [
       "https://leetcode.com/problems/find-subarray-with-bitwise-or-closest-to-k/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "499",
@@ -4782,6 +5281,7 @@ const problems = [
       "https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "500",
@@ -4792,6 +5292,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "501",
@@ -4801,6 +5302,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/longest-nice-subarray/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "502",
@@ -4810,6 +5312,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/bitwise-and-of-numbers-range/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "503",
@@ -4820,6 +5323,7 @@ const problems = [
       "https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "504",
@@ -4830,6 +5334,7 @@ const problems = [
       "https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k/",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "505",
@@ -4840,6 +5345,7 @@ const problems = [
       "https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "506",
@@ -4850,6 +5356,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum",
     platform: "Leetcode",
     tags: ["Bit Manipulation"],
+    completionDifficulty: undefined,
   },
   {
     id: "546",
@@ -4859,6 +5366,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/power-of-two",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "507",
@@ -4868,6 +5376,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/power-of-three",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "508",
@@ -4877,6 +5386,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/power-of-four",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "509",
@@ -4886,6 +5396,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/fibonacci-number",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "510",
@@ -4895,6 +5406,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/powx-n",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "511",
@@ -4904,6 +5416,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/count-good-numbers",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "512",
@@ -4914,6 +5427,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "513",
@@ -4924,6 +5438,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/delete-middle-element-of-a-stack/1",
     platform: "GeeksForGeeks",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "514",
@@ -4933,6 +5448,7 @@ const problems = [
     problemLink: "https://www.geeksforgeeks.org/problems/sort-a-stack/1",
     platform: "GeeksForGeeks",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "515",
@@ -4942,6 +5458,7 @@ const problems = [
     problemLink: "https://www.geeksforgeeks.org/problems/josephus-problem/1",
     platform: "GeeksForGeeks",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "516",
@@ -4952,6 +5469,7 @@ const problems = [
       "https://leetcode.com/problems/find-the-winner-of-the-circular-game",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "517",
@@ -4961,6 +5479,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/predict-the-winner",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "518",
@@ -4971,6 +5490,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1",
     platform: "GeeksForGeeks",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "519",
@@ -4981,6 +5501,7 @@ const problems = [
       "https://leetcode.com/problems/different-ways-to-add-parentheses",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "520",
@@ -4990,6 +5511,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/basic-calculator",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "521",
@@ -4999,6 +5521,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/permutation-sequence",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "522",
@@ -5008,6 +5531,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/regular-expression-matching",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "523",
@@ -5017,6 +5541,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/wildcard-matching",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "524",
@@ -5027,6 +5552,7 @@ const problems = [
       "https://leetcode.com/problems/integer-to-english-words/description/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "525",
@@ -5037,6 +5563,7 @@ const problems = [
       "https://leetcode.com/problems/special-binary-string/description/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "526",
@@ -5046,6 +5573,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/permutations/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "527",
@@ -5056,6 +5584,7 @@ const problems = [
       "https://leetcode.com/problems/construct-smallest-number-from-di-string/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "528",
@@ -5065,6 +5594,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/beautiful-arrangement/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "529",
@@ -5074,6 +5604,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/target-sum/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "530",
@@ -5083,6 +5614,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/combinations/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "531",
@@ -5093,6 +5625,7 @@ const problems = [
       "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "532",
@@ -5102,6 +5635,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/letter-case-permutation/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "533",
@@ -5112,6 +5646,7 @@ const problems = [
       "https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "534",
@@ -5121,6 +5656,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/combination-sum/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "535",
@@ -5130,6 +5666,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/combination-sum-ii/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "536",
@@ -5139,6 +5676,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/combination-sum-iii/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "537",
@@ -5149,6 +5687,7 @@ const problems = [
       "https://leetcode.com/problems/maximum-compatibility-score-sum/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "538",
@@ -5159,6 +5698,7 @@ const problems = [
       "https://leetcode.com/problems/numbers-with-same-consecutive-differences/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "539",
@@ -5168,6 +5708,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/n-queens/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "540",
@@ -5177,6 +5718,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/subsets/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "541",
@@ -5186,6 +5728,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/subsets-ii/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "542",
@@ -5195,6 +5738,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/non-decreasing-subsequences/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "543",
@@ -5205,6 +5749,7 @@ const problems = [
       "https://leetcode.com/problems/the-number-of-beautiful-subsets/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "544",
@@ -5215,6 +5760,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1",
     platform: "GeeksForGeeks",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "545",
@@ -5224,6 +5770,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/sudoku-solver/",
     platform: "Leetcode",
     tags: ["Recursion & Backtracking"],
+    completionDifficulty: undefined,
   },
   {
     id: "547",
@@ -5234,6 +5781,7 @@ const problems = [
       "https://leetcode.com/problems/binary-tree-preorder-traversal/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "548",
@@ -5243,6 +5791,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/binary-tree-inorder-traversal/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "549",
@@ -5253,6 +5802,7 @@ const problems = [
       "https://leetcode.com/problems/binary-tree-postorder-traversal/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "550",
@@ -5263,6 +5813,7 @@ const problems = [
       "https://www.geeksforgeeks.org/preorder-postorder-and-inorder-traversal-of-a-binary-tree-using-a-single-stack/",
     platform: "GeeksForGeeks",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "551",
@@ -5272,6 +5823,7 @@ const problems = [
     problemLink: "https://www.geeksforgeeks.org/problems/remove-half-nodes/1",
     platform: "GeeksForGeeks",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "552",
@@ -5282,6 +5834,7 @@ const problems = [
       "https://leetcode.com/problems/balanced-binary-tree/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "553",
@@ -5292,6 +5845,7 @@ const problems = [
       "https://leetcode.com/problems/maximum-depth-of-binary-tree/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "554",
@@ -5302,6 +5856,7 @@ const problems = [
       "https://leetcode.com/problems/diameter-of-binary-tree/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "555",
@@ -5312,6 +5867,7 @@ const problems = [
       "https://leetcode.com/problems/count-complete-tree-nodes/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "556",
@@ -5321,6 +5877,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "557",
@@ -5331,6 +5888,7 @@ const problems = [
       "https://leetcode.com/problems/check-completeness-of-a-binary-tree/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "558",
@@ -5341,6 +5899,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/construct-binary-tree-from-parent-array/1",
     platform: "GeeksForGeeks",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "559",
@@ -5350,6 +5909,7 @@ const problems = [
     problemLink: "https://www.geeksforgeeks.org/problems/make-binary-tree/1",
     platform: "GeeksForGeeks",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "560",
@@ -5360,6 +5920,7 @@ const problems = [
       "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "561",
@@ -5370,6 +5931,7 @@ const problems = [
       "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "562",
@@ -5380,6 +5942,7 @@ const problems = [
       "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "563",
@@ -5390,6 +5953,7 @@ const problems = [
       "https://www.geeksforgeeks.org/construct-binary-tree-string-bracket-representation/",
     platform: "GeeksForGeeks",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "564",
@@ -5399,6 +5963,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/same-tree/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "565",
@@ -5408,6 +5973,7 @@ const problems = [
     problemLink: "https://www.geeksforgeeks.org/problems/two-mirror-trees/1",
     platform: "GeeksForGeeks",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "566",
@@ -5417,6 +5983,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/merge-two-binary-trees/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "567",
@@ -5426,6 +5993,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/subtree-of-another-tree/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "568",
@@ -5436,6 +6004,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/check-if-tree-is-isomorphic/1",
     platform: "GeeksForGeeks",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "569",
@@ -5445,6 +6014,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/leaf-similar-trees/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "570",
@@ -5454,6 +6024,7 @@ const problems = [
     problemLink: "https://www.geeksforgeeks.org/problems/check-if-subtree/1",
     platform: "GeeksForGeeks",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "571",
@@ -5463,6 +6034,7 @@ const problems = [
     problemLink: "https://www.geeksforgeeks.org/problems/mirror-tree/1",
     platform: "GeeksForGeeks",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "572",
@@ -5473,6 +6045,7 @@ const problems = [
       "https://leetcode.com/problems/binary-tree-level-order-traversal/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "573",
@@ -5483,6 +6056,7 @@ const problems = [
       "https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "574",
@@ -5493,6 +6067,7 @@ const problems = [
       "https://leetcode.com/problems/cousins-in-binary-tree/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "575",
@@ -5503,6 +6078,7 @@ const problems = [
       "https://leetcode.com/problems/average-of-levels-in-binary-tree/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "576",
@@ -5513,6 +6089,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "577",
@@ -5523,6 +6100,7 @@ const problems = [
       "https://leetcode.com/problems/binary-tree-right-side-view/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "578",
@@ -5533,6 +6111,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1",
     platform: "GeeksForGeeks",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "579",
@@ -5543,6 +6122,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1",
     platform: "GeeksForGeeks",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "580",
@@ -5553,6 +6133,7 @@ const problems = [
       "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "581",
@@ -5563,6 +6144,7 @@ const problems = [
       "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "582",
@@ -5573,6 +6155,7 @@ const problems = [
       "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "583",
@@ -5582,6 +6165,7 @@ const problems = [
     problemLink: "https://www.geeksforgeeks.org/problems/burning-tree/1",
     platform: "GeeksForGeeks",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "584",
@@ -5592,6 +6176,7 @@ const problems = [
       "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "585",
@@ -5601,6 +6186,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/binary-tree-paths/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "586",
@@ -5610,6 +6196,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/path-sum/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "587",
@@ -5619,6 +6206,7 @@ const problems = [
     problemLink: "https://www.geeksforgeeks.org/problems/children-sum-parent/1",
     platform: "GeeksForGeeks",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "588",
@@ -5628,6 +6216,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/path-sum-ii/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "589",
@@ -5637,6 +6226,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/sum-root-to-leaf-numbers/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "590",
@@ -5647,6 +6237,7 @@ const problems = [
       "https://leetcode.com/problems/binary-tree-maximum-path-sum/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "591",
@@ -5656,6 +6247,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/path-sum-iii/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "592",
@@ -5666,6 +6258,7 @@ const problems = [
       "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "593",
@@ -5675,6 +6268,7 @@ const problems = [
     problemLink: "https://leetcode.com/explore/learn/card/n-ary-tree/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "594",
@@ -5684,6 +6278,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/n-ary-tree-postorder-traversal",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "595",
@@ -5693,6 +6288,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/n-ary-tree-preorder-traversal",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "596",
@@ -5702,6 +6298,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/maximum-depth-of-n-ary-tree",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "597",
@@ -5712,6 +6309,7 @@ const problems = [
       "https://leetcode.com/problems/search-in-a-binary-search-tree/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "598",
@@ -5722,6 +6320,7 @@ const problems = [
       "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "599",
@@ -5731,6 +6330,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/delete-node-in-a-bst/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "600",
@@ -5741,6 +6341,7 @@ const problems = [
       "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "601",
@@ -5751,6 +6352,7 @@ const problems = [
       "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "602",
@@ -5760,6 +6362,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/convert-bst-to-greater-tree",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "603",
@@ -5769,6 +6372,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/trim-a-binary-search-tree",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "604",
@@ -5778,6 +6382,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/serialize-and-deserialize-bst",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "605",
@@ -5788,6 +6393,7 @@ const problems = [
       "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "606",
@@ -5798,6 +6404,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/construct-bst-from-post-order/1",
     platform: "GeeksForGeeks",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "607",
@@ -5807,6 +6414,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/balance-a-binary-search-tree",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "608",
@@ -5817,6 +6425,7 @@ const problems = [
       "https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "609",
@@ -5827,6 +6436,7 @@ const problems = [
       "https://leetcode.com/problems/find-mode-in-binary-search-tree",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "610",
@@ -5836,6 +6446,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/range-sum-of-bst/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "611",
@@ -5845,6 +6456,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/validate-binary-search-tree/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "612",
@@ -5855,6 +6467,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-distance-between-bst-nodes",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "613",
@@ -5864,6 +6477,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "614",
@@ -5873,6 +6487,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/increasing-order-search-tree",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "615",
@@ -5882,6 +6497,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/two-sum-iv-input-is-a-bst",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "616",
@@ -5891,6 +6507,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/maximum-sum-bst-in-binary-tree",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "617",
@@ -5901,6 +6518,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/print-common-nodes-in-bst/1",
     platform: "GeeksForGeeks",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "618",
@@ -5911,6 +6529,7 @@ const problems = [
       "https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "619",
@@ -5921,6 +6540,7 @@ const problems = [
       "https://leetcode.com/problems/unique-binary-search-trees/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "620",
@@ -5931,6 +6551,7 @@ const problems = [
       "https://leetcode.com/problems/recover-binary-search-tree/description/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "621",
@@ -5941,6 +6562,7 @@ const problems = [
       "https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "622",
@@ -5950,6 +6572,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/binary-search-tree-iterator/",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "623",
@@ -5960,6 +6583,7 @@ const problems = [
       "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "624",
@@ -5970,6 +6594,7 @@ const problems = [
       "https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree",
     platform: "Leetcode",
     tags: ["Tree"],
+    completionDifficulty: undefined,
   },
   {
     id: "732",
@@ -5979,6 +6604,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/maximum-69-number/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "733",
@@ -5989,6 +6615,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "734",
@@ -5999,6 +6626,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "735",
@@ -6009,6 +6637,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "736",
@@ -6019,6 +6648,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "737",
@@ -6028,6 +6658,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/assign-cookies/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "738",
@@ -6037,6 +6668,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/play-with-chips/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "739",
@@ -6046,6 +6678,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/jump-game/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "740",
@@ -6055,6 +6688,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/jump-game-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "741",
@@ -6064,6 +6698,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/wiggle-subsequence/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "742",
@@ -6073,6 +6708,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/cinema-seat-allocation/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "743",
@@ -6082,6 +6718,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/advantage-shuffle/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "744",
@@ -6092,6 +6729,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-score-by-changing-two-elements/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "745",
@@ -6102,6 +6740,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-operations-to-make-array-equal-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "746",
@@ -6111,6 +6750,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/mice-and-cheese/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "747",
@@ -6121,6 +6761,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-seconds-to-equalize-a-circular-array/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "748",
@@ -6131,6 +6772,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "749",
@@ -6140,6 +6782,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/minimize-maximum-of-array/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "750",
@@ -6150,6 +6793,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "751",
@@ -6160,6 +6804,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "752",
@@ -6170,6 +6815,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/problems/activity-selection-1587115620/1",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "753",
@@ -6180,6 +6826,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "754",
@@ -6190,6 +6837,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/non-overlapping-intervals/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "755",
@@ -6200,6 +6848,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "756",
@@ -6209,6 +6858,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/task-scheduler/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "757",
@@ -6219,6 +6869,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-number-of-operations-to-make-arrays-similar/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "758",
@@ -6229,6 +6880,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "759",
@@ -6238,6 +6890,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/patching-array/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "760",
@@ -6248,6 +6901,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/reverse-subarray-to-maximize-array-value/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "761",
@@ -6258,6 +6912,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/super-washing-machines/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "762",
@@ -6268,6 +6923,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-cost-to-equalize-array/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "763",
@@ -6277,6 +6933,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/optimal-partition-of-string/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "764",
@@ -6287,6 +6944,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "765",
@@ -6297,6 +6955,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "766",
@@ -6307,6 +6966,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/lexicographically-smallest-beautiful-string/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "767",
@@ -6317,6 +6977,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-k-subsequences-of-a-string-with-maximum-beauty/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "768",
@@ -6326,6 +6987,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/bag-of-tokens/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "769",
@@ -6335,6 +6997,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/boats-to-save-people/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "770",
@@ -6345,6 +7008,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-matching-of-players-with-trainers/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "771",
@@ -6354,6 +7018,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/candy/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "772",
@@ -6363,6 +7028,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/lemonade-change/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "773",
@@ -6372,6 +7038,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/gas-station/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "774",
@@ -6382,6 +7049,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "775",
@@ -6392,6 +7060,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "776",
@@ -6402,6 +7071,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/previous-permutation-with-one-swap/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "777",
@@ -6411,6 +7081,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/partition-labels/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "778",
@@ -6421,6 +7092,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/construct-k-palindrome-strings/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "779",
@@ -6430,6 +7102,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/reorganize-string/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "780",
@@ -6439,6 +7112,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/string-without-aaa-or-bbb/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "781",
@@ -6449,6 +7123,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/check-if-a-string-can-break-another-string/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "782",
@@ -6458,6 +7133,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/remove-duplicate-letters/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "783",
@@ -6468,6 +7144,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/largest-merge-of-two-strings/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "784",
@@ -6478,6 +7155,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/shortest-string-that-contains-three-strings/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "785",
@@ -6488,6 +7166,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "786",
@@ -6498,6 +7177,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "787",
@@ -6508,6 +7188,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "788",
@@ -6518,6 +7199,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/queue-reconstruction-by-height/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "789",
@@ -6527,6 +7209,7 @@ const problems = [
     tags: ["Greedy"],
     problemLink: "https://leetcode.com/problems/car-pooling/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "790",
@@ -6536,6 +7219,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/climbing-stairs/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "791",
@@ -6545,6 +7229,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/min-cost-climbing-stairs/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "792",
@@ -6554,6 +7239,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/perfect-squares/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "793",
@@ -6563,6 +7249,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/decode-ways/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "794",
@@ -6572,6 +7259,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/unique-binary-search-trees/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "795",
@@ -6581,6 +7269,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/house-robber/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "796",
@@ -6590,6 +7279,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/coin-change/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "797",
@@ -6600,6 +7290,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "798",
@@ -6609,6 +7300,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/minimum-cost-for-tickets/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "799",
@@ -6618,6 +7310,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/delete-and-earn/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "800",
@@ -6628,6 +7321,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-total-damage-with-spell-casting/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "801",
@@ -6637,6 +7331,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/arithmetic-slices/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "802",
@@ -6647,6 +7342,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "803",
@@ -6657,6 +7353,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/partition-array-for-maximum-sum/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "804",
@@ -6666,6 +7363,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "Maximize Consecutive Elements in an Array After Modification",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "805",
@@ -6675,6 +7373,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/coin-change-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "806",
@@ -6684,6 +7383,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/knight-dialer/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "807",
@@ -6694,6 +7394,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/partition-equal-subset-sum/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "808",
@@ -6703,6 +7404,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/triangle/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "809",
@@ -6713,6 +7415,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/student-attendance-record-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "810",
@@ -6723,6 +7426,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-the-maximum-length-of-a-good-subsequence-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "811",
@@ -6732,6 +7436,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/k-inverse-pairs-array/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "812",
@@ -6741,6 +7446,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/combination-sum-iv/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "813",
@@ -6750,6 +7456,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/largest-sum-of-averages/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "814",
@@ -6760,6 +7467,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/longest-arithmetic-subsequence/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "815",
@@ -6770,6 +7478,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "816",
@@ -6779,6 +7488,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/dice-roll-simulation/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "817",
@@ -6789,6 +7499,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-strings-which-can-be-rearranged-to-contain-substring/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "818",
@@ -6798,6 +7509,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/frog-jump/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "819",
@@ -6808,6 +7520,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "820",
@@ -6818,6 +7531,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "821",
@@ -6828,6 +7542,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "822",
@@ -6837,6 +7552,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/freedom-trail/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "823",
@@ -6846,6 +7562,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/number-of-music-playlists/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "824",
@@ -6855,6 +7572,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/count-vowels-permutation/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "825",
@@ -6865,6 +7583,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "826",
@@ -6875,6 +7594,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "827",
@@ -6885,6 +7605,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "828",
@@ -6895,6 +7616,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "829",
@@ -6905,6 +7627,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "830",
@@ -6915,6 +7638,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "831",
@@ -6925,6 +7649,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "832",
@@ -6934,6 +7659,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/paint-house-iii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "833",
@@ -6943,6 +7669,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/count-all-possible-routes/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "834",
@@ -6952,6 +7679,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://www.geeksforgeeks.org/problems/geeks-training/1",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "835",
@@ -6961,6 +7689,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/unique-paths/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "836",
@@ -6970,6 +7699,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/unique-paths-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "837",
@@ -6979,6 +7709,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/minimum-path-sum/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "838",
@@ -6989,6 +7720,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "839",
@@ -6999,6 +7731,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-difference-score-in-a-grid/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "840",
@@ -7009,6 +7742,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "841",
@@ -7019,6 +7753,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "842",
@@ -7028,6 +7763,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/where-will-the-ball-fall/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "843",
@@ -7037,6 +7773,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/dungeon-game/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "844",
@@ -7046,6 +7783,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/cherry-pickup/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "845",
@@ -7056,6 +7794,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-paths-with-max-score/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "846",
@@ -7065,6 +7804,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/cherry-pickup-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "847",
@@ -7074,6 +7814,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/minimum-falling-path-sum-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "848",
@@ -7083,6 +7824,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/out-of-boundary-paths/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "849",
@@ -7092,6 +7834,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/minimum-falling-path-sum/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "850",
@@ -7101,6 +7844,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://atcoder.jp/contests/dp/tasks/dp_d",
     platform: "Atcoder",
+    completionDifficulty: undefined,
   },
   {
     id: "851",
@@ -7110,6 +7854,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://atcoder.jp/contests/dp/tasks/dp_e",
     platform: "Atcoder",
+    completionDifficulty: undefined,
   },
   {
     id: "852",
@@ -7119,6 +7864,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/ones-and-zeroes/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "853",
@@ -7128,6 +7874,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/target-sum/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "854",
@@ -7137,6 +7884,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/2-keys-keyboard/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "855",
@@ -7146,6 +7894,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/best-team-with-no-conflicts/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "856",
@@ -7155,6 +7904,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/shopping-offers/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "857",
@@ -7165,6 +7915,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-number-of-coins-for-fruits/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "858",
@@ -7174,6 +7925,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/last-stone-weight-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "859",
@@ -7183,6 +7935,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://www.geeksforgeeks.org/problems/rod-cutting0840/1",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "860",
@@ -7193,6 +7946,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/filling-bookcase-shelves/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "861",
@@ -7202,6 +7956,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/video-stitching/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "862",
@@ -7212,6 +7967,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximize-total-cost-of-alternating-subarrays/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "863",
@@ -7221,6 +7977,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/pizza-with-3n-slices/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "864",
@@ -7231,6 +7988,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "865",
@@ -7240,6 +7998,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/profitable-schemes/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "866",
@@ -7249,6 +8008,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/reducing-dishes/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "867",
@@ -7259,6 +8019,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "868",
@@ -7269,6 +8030,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-the-sum-of-subsequence-powers/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "869",
@@ -7279,6 +8041,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-of-sub-multisets-with-bounded-sum/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "870",
@@ -7289,6 +8052,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/longest-increasing-subsequence/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "871",
@@ -7299,6 +8063,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/problems/printing-longest-increasing-subsequence/0",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "872",
@@ -7309,6 +8074,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-longest-increasing-subsequence/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "873",
@@ -7318,6 +8084,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/largest-divisible-subset/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "874",
@@ -7328,6 +8095,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "875",
@@ -7338,6 +8106,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence4749/1",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "876",
@@ -7348,6 +8117,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "877",
@@ -7357,6 +8127,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/wiggle-subsequence/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "878",
@@ -7367,6 +8138,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "879",
@@ -7376,6 +8148,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/russian-doll-envelopes/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "880",
@@ -7386,6 +8159,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/delete-columns-to-make-sorted-iii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "881",
@@ -7396,6 +8170,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "882",
@@ -7406,6 +8181,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-height-by-stacking-cuboids/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "883",
@@ -7415,6 +8191,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/maximum-length-of-pair-chain/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "884",
@@ -7425,6 +8202,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/make-array-strictly-increasing/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "885",
@@ -7434,6 +8212,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/longest-common-subsequence/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "886",
@@ -7444,6 +8223,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/problems/print-all-lcs-sequences3413/1",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "887",
@@ -7454,6 +8234,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/count-common-subsequence-in-two-strings/",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "888",
@@ -7464,6 +8245,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/delete-operation-for-two-strings/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "889",
@@ -7473,6 +8255,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/longest-palindromic-substring/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "890",
@@ -7483,6 +8266,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/longest-palindromic-subsequence/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "891",
@@ -7493,6 +8277,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-length-of-repeated-subarray/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "892",
@@ -7502,6 +8287,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/edit-distance/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "893",
@@ -7511,6 +8297,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/interleaving-string/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "894",
@@ -7520,6 +8307,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/regular-expression-matching/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "895",
@@ -7529,6 +8317,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/wildcard-matching/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "896",
@@ -7538,6 +8327,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/shortest-common-supersequence/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "897",
@@ -7548,6 +8338,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "898",
@@ -7558,6 +8349,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/max-dot-product-of-two-subsequences/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "899",
@@ -7568,6 +8360,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "900",
@@ -7578,6 +8371,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/apply-operations-to-make-two-strings-equal/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "901",
@@ -7588,6 +8382,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "902",
@@ -7597,6 +8392,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/word-break/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "903",
@@ -7606,6 +8402,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/longest-string-chain/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "904",
@@ -7616,6 +8413,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/unique-substrings-in-wraparound-string/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "905",
@@ -7625,6 +8423,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/longest-valid-parentheses/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "906",
@@ -7634,6 +8433,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/distinct-subsequences/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "907",
@@ -7643,6 +8443,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/word-break-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "908",
@@ -7652,6 +8453,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/count-the-repetitions/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "909",
@@ -7661,6 +8463,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/concatenated-words/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "910",
@@ -7671,6 +8474,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-different-palindromic-subsequences/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "911",
@@ -7680,6 +8484,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/distinct-subsequences-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "912",
@@ -7690,6 +8495,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/longest-chunked-palindrome-decomposition/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "913",
@@ -7699,6 +8505,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/string-compression-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "914",
@@ -7709,6 +8516,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "915",
@@ -7719,6 +8527,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "916",
@@ -7728,6 +8537,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/maximal-square/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "917",
@@ -7737,6 +8547,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/range-sum-query-2d-immutable/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "918",
@@ -7746,6 +8557,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/largest-plus-sign/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "919",
@@ -7755,6 +8567,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/largest-1-bordered-square/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "920",
@@ -7765,6 +8578,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-square-submatrices-with-all-ones/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "921",
@@ -7774,6 +8588,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/matrix-block-sum/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "922",
@@ -7784,6 +8599,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-submatrices-with-all-ones/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "923",
@@ -7793,6 +8609,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/ways-to-make-a-fair-array/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "924",
@@ -7802,6 +8619,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/maximal-rectangle/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "925",
@@ -7812,6 +8630,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "926",
@@ -7821,6 +8640,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/super-washing-machines/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "927",
@@ -7831,6 +8651,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "928",
@@ -7841,6 +8662,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "929",
@@ -7851,6 +8673,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-the-count-of-monotonic-pairs-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "930",
@@ -7860,6 +8683,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/get-the-maximum-score/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "931",
@@ -7870,6 +8694,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "932",
@@ -7880,6 +8705,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/guess-number-higher-or-lower-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "933",
@@ -7889,6 +8715,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/predict-the-winner/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "934",
@@ -7898,6 +8725,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/stone-game/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "935",
@@ -7907,6 +8735,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/burst-balloons/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "936",
@@ -7917,6 +8746,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-score-triangulation-of-polygon/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "937",
@@ -7927,6 +8757,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "938",
@@ -7937,6 +8768,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/partition-array-for-maximum-sum/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "939",
@@ -7947,6 +8779,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/palindrome-partitioning-iii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "940",
@@ -7956,6 +8789,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/stone-game-vii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "941",
@@ -7965,6 +8799,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/remove-boxes/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "942",
@@ -7974,6 +8809,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/strange-printer/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "943",
@@ -7984,6 +8820,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/valid-permutations-for-di-sequence/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "944",
@@ -7993,6 +8830,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/minimum-cost-to-merge-stones/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "945",
@@ -8002,6 +8840,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/allocate-mailboxes/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "946",
@@ -8011,6 +8850,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "947",
@@ -8020,6 +8860,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/stone-game-v/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "948",
@@ -8029,6 +8870,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/palindrome-partitioning-iii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "949",
@@ -8038,6 +8880,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/can-i-win/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "950",
@@ -8048,6 +8891,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/partition-to-k-equal-sum-subsets/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "951",
@@ -8057,6 +8901,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/stickers-to-spell-word/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "952",
@@ -8066,6 +8911,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/smallest-sufficient-team/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "953",
@@ -8075,6 +8921,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/maximum-students-taking-exam/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "954",
@@ -8085,6 +8932,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "955",
@@ -8095,6 +8943,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "956",
@@ -8105,6 +8954,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "957",
@@ -8114,6 +8964,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://www.codechef.com/problems/TSHIRTS",
     platform: "Codechef",
+    completionDifficulty: undefined,
   },
   {
     id: "958",
@@ -8123,6 +8974,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/distribute-repeating-integers/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "959",
@@ -8132,6 +8984,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/maximize-grid-happiness/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "960",
@@ -8142,6 +8995,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "961",
@@ -8152,6 +9006,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "962",
@@ -8162,6 +9017,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/shortest-path-visiting-all-nodes/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "963",
@@ -8171,6 +9027,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://atcoder.jp/contests/dp/tasks/dp_u",
     platform: "Atcoder",
+    completionDifficulty: undefined,
   },
   {
     id: "964",
@@ -8180,6 +9037,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://atcoder.jp/contests/dp/tasks/dp_o",
     platform: "Atcoder",
+    completionDifficulty: undefined,
   },
   {
     id: "965",
@@ -8189,6 +9047,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://cses.fi/problemset/task/2220",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "966",
@@ -8199,6 +9058,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "967",
@@ -8209,6 +9069,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/numbers-at-most-n-given-digit-set/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "968",
@@ -8218,6 +9079,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/numbers-with-repeated-digits/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "969",
@@ -8227,6 +9089,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/number-of-digit-one/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "970",
@@ -8237,6 +9100,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-beautiful-integers-in-the-range/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "971",
@@ -8247,6 +9111,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-the-number-of-powerful-integers/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "972",
@@ -8257,6 +9122,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-all-good-strings/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "973",
@@ -8266,6 +9132,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/house-robber-iii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "974",
@@ -8276,6 +9143,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "975",
@@ -8286,6 +9154,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-score-after-applying-operations-on-a-tree/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "976",
@@ -8295,6 +9164,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://cses.fi/problemset/task/1674",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "977",
@@ -8304,6 +9174,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://cses.fi/problemset/task/1130",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "978",
@@ -8314,6 +9185,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "979",
@@ -8324,6 +9196,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "980",
@@ -8334,6 +9207,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-points-after-collecting-coins-from-all-nodes/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "981",
@@ -8344,6 +9218,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/sum-of-distances-in-tree/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "982",
@@ -8354,6 +9229,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-points-after-collecting-coins-from-all-nodes/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "983",
@@ -8364,6 +9240,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "984",
@@ -8374,6 +9251,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-number-of-coins-to-place-in-tree-nodes/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "985",
@@ -8384,6 +9262,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimize-the-total-price-of-the-trips/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "986",
@@ -8393,6 +9272,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://cses.fi/problemset/task/1132",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "987",
@@ -8402,6 +9282,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://cses.fi/problemset/task/1133",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "988",
@@ -8411,6 +9292,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://cses.fi/problemset/task/1687",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "989",
@@ -8420,6 +9302,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://cses.fi/problemset/task/1688",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "990",
@@ -8429,6 +9312,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://cses.fi/problemset/task/1135",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "991",
@@ -8439,6 +9323,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/time-taken-to-mark-all-nodes/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "992",
@@ -8448,6 +9333,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/maximum-subarray/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "993",
@@ -8457,6 +9343,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/maximum-product-subarray/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "994",
@@ -8466,6 +9353,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/bitwise-ors-of-subarrays/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "995",
@@ -8475,6 +9363,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/longest-turbulent-subarray/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "996",
@@ -8485,6 +9374,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "997",
@@ -8494,6 +9384,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/k-concatenation-maximum-sum/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "998",
@@ -8504,6 +9395,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "999",
@@ -8513,6 +9405,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/minimum-jumps-to-reach-home/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1000",
@@ -8522,6 +9415,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/scramble-string/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1001",
@@ -8532,6 +9426,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1002",
@@ -8542,6 +9437,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1003",
@@ -8551,6 +9447,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/jump-game-v/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1004",
@@ -8561,6 +9458,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1005",
@@ -8570,6 +9468,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/ugly-number-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1006",
@@ -8579,6 +9478,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/count-sorted-vowel-strings/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1007",
@@ -8588,6 +9488,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/race-car/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1008",
@@ -8597,6 +9498,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/super-egg-drop/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1009",
@@ -8607,6 +9509,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/least-operators-to-express-number/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1010",
@@ -8616,6 +9519,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/largest-multiple-of-three/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1011",
@@ -8625,6 +9529,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/kth-smallest-instructions/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1012",
@@ -8635,6 +9540,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1013",
@@ -8644,6 +9550,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/domino-and-tromino-tiling/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1014",
@@ -8654,6 +9561,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-numbers-with-unique-digits/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1015",
@@ -8664,6 +9572,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1016",
@@ -8674,6 +9583,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1017",
@@ -8683,6 +9593,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://cses.fi/problemset/task/2181",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "1018",
@@ -8692,6 +9603,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/soup-servings/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1019",
@@ -8701,6 +9613,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/new-21-game/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1020",
@@ -8711,6 +9624,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/airplane-seat-assignment-probability/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1021",
@@ -8721,6 +9635,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/knight-probability-in-chessboard/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1022",
@@ -8730,6 +9645,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://leetcode.com/problems/champagne-tower/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1023",
@@ -8739,6 +9655,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://atcoder.jp/contests/dp/tasks/dp_j",
     platform: "Atcoder",
+    completionDifficulty: undefined,
   },
   {
     id: "1024",
@@ -8748,6 +9665,7 @@ const problems = [
     status: "Unsolved",
     problemLink: "https://atcoder.jp/contests/dp/tasks/dp_i",
     platform: "Atcoder",
+    completionDifficulty: undefined,
   },
   {
     id: "1025",
@@ -8759,6 +9677,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1167",
@@ -8769,6 +9688,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "1168",
@@ -8779,6 +9699,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "1169",
@@ -8789,6 +9710,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/z-algorithm-linear-time-pattern-searching-algorithm/",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "1170",
@@ -8799,6 +9721,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1171",
@@ -8809,6 +9732,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1172",
@@ -8819,6 +9743,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1173",
@@ -8829,6 +9754,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1174",
@@ -8839,6 +9765,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/string-transformation/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1175",
@@ -8849,6 +9776,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-substring-with-given-hash-value",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1176",
@@ -8859,6 +9787,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-deletions-on-a-string/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1177",
@@ -8869,6 +9798,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/match-substring-after-replacement/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1178",
@@ -8879,6 +9809,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/sum-of-scores-of-built-strings/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1179",
@@ -8889,6 +9820,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-all-good-strings/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1180",
@@ -8899,6 +9831,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/longest-happy-prefix/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1181",
@@ -8909,6 +9842,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/shortest-palindrome/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1182",
@@ -8919,6 +9853,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/distinct-echo-substrings/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1183",
@@ -8929,6 +9864,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/longest-chunked-palindrome-decomposition/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1184",
@@ -8939,6 +9875,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-substrings/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1185",
@@ -8949,6 +9886,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/longest-duplicate-substring/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1186",
@@ -8959,6 +9897,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/check-if-it-is-a-straight-line/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1187",
@@ -8969,6 +9908,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1188",
@@ -8979,6 +9919,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/k-closest-points-to-origin/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1189",
@@ -8989,6 +9930,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/problems/check-if-two-line-segments-intersect0017/1",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "1190",
@@ -8999,6 +9941,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/max-points-on-a-line/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1191",
@@ -9009,6 +9952,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimize-manhattan-distances/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1192",
@@ -9018,6 +9962,7 @@ const problems = [
     difficulty: "Hard",
     problemLink: "https://leetcode.com/problems/self-crossing/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1193",
@@ -9027,6 +9972,7 @@ const problems = [
     difficulty: "Easy",
     problemLink: "https://leetcode.com/problems/rectangle-overlap/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1194",
@@ -9037,6 +9983,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/largest-triangle-area/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1195",
@@ -9047,6 +9994,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-rectangles-to-cover-points/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1196",
@@ -9056,6 +10004,7 @@ const problems = [
     difficulty: "Medium",
     problemLink: "https://leetcode.com/problems/rectangle-area/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1197",
@@ -9066,6 +10015,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-area-rectangle/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1198",
@@ -9076,6 +10026,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-area-rectangle-ii/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1199",
@@ -9085,6 +10036,7 @@ const problems = [
     difficulty: "Medium",
     problemLink: "https://leetcode.com/problems/mirror-reflection/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1200",
@@ -9095,6 +10047,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1201",
@@ -9105,6 +10058,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1202",
@@ -9115,6 +10069,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/generate-random-point-in-a-circle/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1203",
@@ -9125,6 +10080,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/circle-and-rectangle-overlapping/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1204",
@@ -9135,6 +10091,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-lattice-points-inside-a-circle/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1205",
@@ -9145,6 +10102,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1206",
@@ -9155,6 +10113,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1207",
@@ -9165,6 +10124,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/problems/ncr-mod-m-part-20611/1",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "1208",
@@ -9175,6 +10135,7 @@ const problems = [
     problemLink:
       "https://www.geeksforgeeks.org/problems/ncr-mod-m-part-20611/1",
     platform: "GeeksForGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "1209",
@@ -9184,6 +10145,7 @@ const problems = [
     difficulty: "Medium",
     problemLink: "https://codeforces.com/contest/1178/problem/C",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1210",
@@ -9194,6 +10156,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/distribute-candies-among-children-ii/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1211",
@@ -9203,6 +10166,7 @@ const problems = [
     difficulty: "Medium",
     problemLink: "https://leetcode.com/problems/unique-paths/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1212",
@@ -9212,6 +10176,7 @@ const problems = [
     difficulty: "Medium",
     problemLink: "https://codeforces.com/contest/52/problem/B",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1213",
@@ -9221,6 +10186,7 @@ const problems = [
     difficulty: "Hard",
     problemLink: "https://leetcode.com/problems/permutation-sequence/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1214",
@@ -9230,6 +10196,7 @@ const problems = [
     difficulty: "Hard",
     problemLink: "https://leetcode.com/problems/count-anagrams/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1215",
@@ -9240,6 +10207,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1216",
@@ -9250,6 +10218,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-the-number-of-ideal-arrays/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1217",
@@ -9260,6 +10229,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1218",
@@ -9270,6 +10240,7 @@ const problems = [
     problemLink:
       "https://leetcode.com/problems/count-the-number-of-infection-sequences/description/",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1219",
@@ -9279,6 +10250,7 @@ const problems = [
     difficulty: "Hard",
     problemLink: "https://codeforces.com/problemset/problem/1312/D",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1220",
@@ -9288,6 +10260,7 @@ const problems = [
     difficulty: "Hard",
     problemLink: "https://codeforces.com/contest/300/problem/C",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1221",
@@ -9297,6 +10270,7 @@ const problems = [
     difficulty: "Hard",
     problemLink: "https://codeforces.com/contest/895/problem/D",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "625",
@@ -9307,6 +10281,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/implementation-of-priority-queue-using-binary-heap/1",
     difficulty: "Easy",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "626",
@@ -9316,6 +10291,7 @@ const problems = [
     problemLink: "https://www.geeksforgeeks.org/problems/heap-sort/1",
     difficulty: "Medium",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "627",
@@ -9326,6 +10302,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/does-array-represent-heap4345/1",
     difficulty: "Easy",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "628",
@@ -9335,6 +10312,7 @@ const problems = [
     problemLink: "https://www.geeksforgeeks.org/problems/is-binary-tree-heap/1",
     difficulty: "Medium",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "629",
@@ -9345,6 +10323,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/operations-on-binary-min-heap/1",
     difficulty: "Medium",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "630",
@@ -9355,6 +10334,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/convert-min-heap-to-max-heap-1666385109/1",
     difficulty: "Medium",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "631",
@@ -9364,6 +10344,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/relative-ranks/",
     difficulty: "Easy",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "632",
@@ -9374,6 +10355,7 @@ const problems = [
       "https://leetcode.com/problems/take-gifts-from-the-richest-pile/",
     difficulty: "Easy",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "633",
@@ -9383,6 +10365,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/last-stone-weight/",
     difficulty: "Easy",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "634",
@@ -9393,6 +10376,7 @@ const problems = [
       "https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/",
     difficulty: "Easy",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "635",
@@ -9403,6 +10387,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/",
     difficulty: "Easy",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "636",
@@ -9412,6 +10397,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/seat-reservation-manager/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "637",
@@ -9421,6 +10407,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/sort-characters-by-frequency/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "638",
@@ -9430,6 +10417,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/reduce-array-size-to-the-half/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "639",
@@ -9439,6 +10427,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/longest-happy-string/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "640",
@@ -9448,6 +10437,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/reorganize-string/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "641",
@@ -9457,6 +10447,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/maximum-average-pass-ratio/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "642",
@@ -9467,6 +10458,7 @@ const problems = [
       "https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "643",
@@ -9477,6 +10469,7 @@ const problems = [
       "https://leetcode.com/problems/furthest-building-you-can-reach/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "644",
@@ -9486,6 +10479,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/distant-barcodes/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "645",
@@ -9495,6 +10489,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/task-scheduler/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "646",
@@ -9505,6 +10500,7 @@ const problems = [
       "https://leetcode.com/problems/maximal-score-after-applying-k-operations/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "647",
@@ -9514,6 +10510,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/single-threaded-cpu/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "648",
@@ -9523,6 +10520,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/most-popular-video-creator/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "649",
@@ -9533,6 +10531,7 @@ const problems = [
       "https://leetcode.com/problems/total-cost-to-hire-k-workers/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "650",
@@ -9542,6 +10541,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/most-frequent-ids/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "651",
@@ -9551,6 +10551,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/process-tasks-using-servers/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "652",
@@ -9561,6 +10562,7 @@ const problems = [
       "https://leetcode.com/problems/maximum-number-of-eaten-apples/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "653",
@@ -9571,6 +10573,7 @@ const problems = [
       "https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "654",
@@ -9581,6 +10584,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "655",
@@ -9590,6 +10594,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/put-marbles-in-bags/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "656",
@@ -9600,6 +10605,7 @@ const problems = [
       "https://leetcode.com/problems/maximum-spending-after-buying-items/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "657",
@@ -9609,6 +10615,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/trapping-rain-water-ii/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "658",
@@ -9618,6 +10625,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/maximum-subsequence-score/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "659",
@@ -9628,6 +10636,7 @@ const problems = [
       "https://leetcode.com/problems/maximum-performance-of-a-team/description/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "660",
@@ -9638,6 +10647,7 @@ const problems = [
       "https://leetcode.com/problems/max-value-of-equation/description/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "661",
@@ -9647,6 +10657,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/the-skyline-problem/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "662",
@@ -9657,6 +10668,7 @@ const problems = [
       "https://leetcode.com/problems/maximum-elegance-of-a-k-length-subsequence/description/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "663",
@@ -9667,6 +10679,7 @@ const problems = [
       "https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/",
     difficulty: "Easy",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "664",
@@ -9677,6 +10690,7 @@ const problems = [
       "https://leetcode.com/problems/kth-largest-element-in-an-array/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "665",
@@ -9687,6 +10701,7 @@ const problems = [
       "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
     difficulty: "Easy",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "666",
@@ -9697,6 +10712,7 @@ const problems = [
       "https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/description/",
     difficulty: "Easy",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "667",
@@ -9707,6 +10723,7 @@ const problems = [
       "https://leetcode.com/problems/k-th-smallest-prime-fraction/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "668",
@@ -9717,6 +10734,7 @@ const problems = [
       "https://leetcode.com/problems/k-closest-points-to-origin/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "669",
@@ -9727,6 +10745,7 @@ const problems = [
       "https://leetcode.com/problems/top-k-frequent-elements/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "670",
@@ -9737,6 +10756,7 @@ const problems = [
       "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "671",
@@ -9747,6 +10767,7 @@ const problems = [
       "https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "672",
@@ -9756,6 +10777,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/top-k-frequent-words/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "673",
@@ -9766,6 +10788,7 @@ const problems = [
       "https://leetcode.com/problems/find-k-closest-elements/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "674",
@@ -9775,6 +10798,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/ugly-number-ii/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "675",
@@ -9785,6 +10809,7 @@ const problems = [
       "https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "676",
@@ -9795,6 +10820,7 @@ const problems = [
       "https://leetcode.com/problems/reward-top-k-students/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "677",
@@ -9805,6 +10831,7 @@ const problems = [
       "https://leetcode.com/problems/query-kth-smallest-trimmed-number/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "678",
@@ -9815,6 +10842,7 @@ const problems = [
       "https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "679",
@@ -9825,6 +10853,7 @@ const problems = [
       "https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/description/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "680",
@@ -9835,6 +10864,7 @@ const problems = [
       "https://leetcode.com/problems/find-the-k-sum-of-an-array/description/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "681",
@@ -9845,6 +10875,7 @@ const problems = [
       "https://leetcode.com/problems/remove-stones-to-minimize-the-total/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "682",
@@ -9855,6 +10886,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-operations-to-halve-array-sum/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "683",
@@ -9865,6 +10897,7 @@ const problems = [
       "https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "684",
@@ -9875,6 +10908,7 @@ const problems = [
       "https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "685",
@@ -9885,6 +10919,7 @@ const problems = [
       "https://leetcode.com/problems/replace-question-marks-in-string-to-minimize-its-value/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "686",
@@ -9895,6 +10930,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-sum-of-squared-difference/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "687",
@@ -9905,6 +10941,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-cost-to-hire-k-workers/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "688",
@@ -9915,6 +10952,7 @@ const problems = [
       "https://leetcode.com/problems/minimize-deviation-in-array/description/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "689",
@@ -9925,6 +10963,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location/description/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "690",
@@ -9935,6 +10974,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-interval-to-include-each-query/description/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "691",
@@ -9945,6 +10985,7 @@ const problems = [
       "https://leetcode.com/problems/merge-k-sorted-lists/description/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "692",
@@ -9955,6 +10996,7 @@ const problems = [
       "https://leetcode.com/problems/find-k-pairs-with-smallest-sums/  ",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "693",
@@ -9965,6 +11007,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/merge-k-sorted-arrays/1",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "694",
@@ -9975,6 +11018,7 @@ const problems = [
       "https://leetcode.com/problems/number-of-orders-in-the-backlog/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "695",
@@ -9985,6 +11029,7 @@ const problems = [
       "https://leetcode.com/problems/sliding-window-median/description/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "696",
@@ -9994,6 +11039,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/ipo/description/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "697",
@@ -10003,6 +11049,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/find-median-from-data-stream/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "698",
@@ -10012,6 +11059,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/meeting-rooms-iii/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "699",
@@ -10021,6 +11069,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/time-to-cross-a-bridge/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "700",
@@ -10030,6 +11079,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/implement-trie-prefix-tree/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "701",
@@ -10040,6 +11090,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/trie-delete/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
     difficulty: "Hard",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "702",
@@ -10050,6 +11101,7 @@ const problems = [
       "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "703",
@@ -10059,6 +11111,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/map-sum-pairs/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "704",
@@ -10069,6 +11122,7 @@ const problems = [
       "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "705",
@@ -10079,6 +11133,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/minimum-xor-value-pair/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
     difficulty: "Hard",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "706",
@@ -10089,6 +11144,7 @@ const problems = [
       "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "707",
@@ -10099,6 +11155,7 @@ const problems = [
       "https://leetcode.com/problems/count-pairs-with-xor-in-a-range/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "708",
@@ -10108,6 +11165,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/maximum-strong-pair-xor-ii/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "709",
@@ -10117,6 +11175,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/longest-common-prefix/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "710",
@@ -10127,6 +11186,7 @@ const problems = [
       "https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "711",
@@ -10136,6 +11196,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/search-suggestions-system/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "712",
@@ -10146,6 +11207,7 @@ const problems = [
       "https://leetcode.com/problems/sum-of-prefix-scores-of-strings/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "713",
@@ -10155,6 +11217,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/prefix-and-suffix-search/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "714",
@@ -10164,6 +11227,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/longest-common-suffix-queries/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "715",
@@ -10174,6 +11238,7 @@ const problems = [
       "https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "716",
@@ -10183,6 +11248,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/stream-of-characters/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "717",
@@ -10192,6 +11258,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/extra-characters-in-a-string/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "718",
@@ -10201,6 +11268,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/implement-magic-dictionary/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "719",
@@ -10211,6 +11279,7 @@ const problems = [
       "https://leetcode.com/problems/number-of-matching-subsequences/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "720",
@@ -10220,6 +11289,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/camelcase-matching/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "721",
@@ -10229,6 +11299,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/short-encoding-of-words/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "722",
@@ -10238,6 +11309,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/encrypt-and-decrypt-strings/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "723",
@@ -10248,6 +11320,7 @@ const problems = [
       "https://leetcode.com/problems/longest-word-in-dictionary/description/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "724",
@@ -10258,6 +11331,7 @@ const problems = [
       "https://leetcode.com/problems/construct-string-with-minimum-cost/description/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "725",
@@ -10268,6 +11342,7 @@ const problems = [
       "https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "726",
@@ -10277,6 +11352,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/word-break/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "727",
@@ -10286,6 +11362,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/word-break-ii/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "728",
@@ -10295,6 +11372,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/word-search-ii/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "729",
@@ -10304,6 +11382,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/palindrome-pairs/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "730",
@@ -10314,6 +11393,7 @@ const problems = [
       "https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "731",
@@ -10324,6 +11404,7 @@ const problems = [
       "https://leetcode.com/problems/delete-duplicate-folders-in-system/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1039",
@@ -10333,6 +11414,7 @@ const problems = [
     problemLink: "https://www.naukri.com/code360/problems/dfs-traversal_630462",
     difficulty: "Easy",
     platform: "Naukri",
+    completionDifficulty: undefined,
   },
   {
     id: "1040",
@@ -10343,6 +11425,7 @@ const problems = [
       "https://leetcode.com/problems/find-if-path-exists-in-graph/description/",
     difficulty: "Easy",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1041",
@@ -10352,6 +11435,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/keys-and-rooms/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1042",
@@ -10362,6 +11446,7 @@ const problems = [
       "https://leetcode.com/problems/number-of-provinces/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1043",
@@ -10372,6 +11457,7 @@ const problems = [
       "https://leetcode.com/problems/count-the-number-of-complete-components/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1044",
@@ -10382,6 +11468,7 @@ const problems = [
       "https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1045",
@@ -10392,6 +11479,7 @@ const problems = [
       "https://leetcode.com/problems/longest-cycle-in-a-graph/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1046",
@@ -10401,6 +11489,7 @@ const problems = [
     problemLink: "https://www.naukri.com/code360/problems/bfs-in-graph_973002",
     difficulty: "Easy",
     platform: "Naukri",
+    completionDifficulty: undefined,
   },
   {
     id: "1047",
@@ -10411,6 +11500,7 @@ const problems = [
       "https://leetcode.com/problems/snakes-and-ladders/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1048",
@@ -10420,6 +11510,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/open-the-lock/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1049",
@@ -10429,6 +11520,7 @@ const problems = [
     problemLink: "https://cses.fi/problemset/task/1667",
     difficulty: "Medium",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "1050",
@@ -10438,6 +11530,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/word-ladder/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1051",
@@ -10447,6 +11540,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/1037/D",
     difficulty: "Hard",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1052",
@@ -10457,6 +11551,7 @@ const problems = [
       "https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1053",
@@ -10467,6 +11562,7 @@ const problems = [
       "https://leetcode.com/problems/as-far-from-land-as-possible/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1054",
@@ -10477,6 +11573,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-operations-to-convert-number/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1055",
@@ -10487,6 +11584,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1056",
@@ -10497,6 +11595,7 @@ const problems = [
       "https://leetcode.com/problems/shortest-path-with-alternating-colors/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1057",
@@ -10507,6 +11606,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1058",
@@ -10517,6 +11617,7 @@ const problems = [
       "https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1059",
@@ -10526,6 +11627,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/jump-game-iii/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1060",
@@ -10535,6 +11637,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/clone-graph/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1061",
@@ -10545,6 +11648,7 @@ const problems = [
       "https://leetcode.com/problems/last-day-where-you-can-still-cross/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1062",
@@ -10554,6 +11658,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/sliding-puzzle/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1063",
@@ -10564,6 +11669,7 @@ const problems = [
       "https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/description/ ",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1064",
@@ -10574,6 +11680,7 @@ const problems = [
       "https://leetcode.com/problems/shortest-path-to-get-all-keys/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1065",
@@ -10583,6 +11690,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/jump-game-iv/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1066",
@@ -10592,6 +11700,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/word-ladder-ii/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1067",
@@ -10601,6 +11710,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/escape-the-spreading-fire/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1068",
@@ -10611,6 +11721,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/0",
     difficulty: "Medium",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "1069",
@@ -10621,6 +11732,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1",
     difficulty: "Medium",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "1070",
@@ -10631,6 +11743,7 @@ const problems = [
       "https://www.naukri.com/code360/library/check-if-a-graph-has-a-cycle-of-odd-length",
     difficulty: "Medium",
     platform: "Naukri",
+    completionDifficulty: undefined,
   },
   {
     id: "1071",
@@ -10640,6 +11753,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/detect-cycles-in-2d-grid/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1072",
@@ -10650,6 +11764,7 @@ const problems = [
       "https://leetcode.com/problems/shortest-cycle-in-a-graph/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1073",
@@ -10659,6 +11774,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/is-graph-bipartite/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1074",
@@ -10669,6 +11785,7 @@ const problems = [
       "https://leetcode.com/problems/possible-bipartition/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1075",
@@ -10679,6 +11796,7 @@ const problems = [
       "https://leetcode.com/problems/flower-planting-with-no-adjacent/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1076",
@@ -10689,6 +11807,7 @@ const problems = [
       "https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1080",
@@ -10698,6 +11817,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/course-schedule",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1081",
@@ -10707,6 +11827,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/course-schedule-ii",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1082",
@@ -10717,6 +11838,7 @@ const problems = [
       "https://leetcode.com/problems/find-eventual-safe-states/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1083",
@@ -10726,6 +11848,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/minimum-height-trees",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1084",
@@ -10735,6 +11858,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/loud-and-rich",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1085",
@@ -10745,6 +11869,7 @@ const problems = [
       "https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1086",
@@ -10755,6 +11880,7 @@ const problems = [
       "https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1087",
@@ -10764,6 +11890,7 @@ const problems = [
     problemLink: "https://www.geeksforgeeks.org/problems/alien-dictionary/1",
     difficulty: "Hard",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "1088",
@@ -10774,6 +11901,7 @@ const problems = [
       "https://leetcode.com/problems/longest-increasing-path-in-a-matrix",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1089",
@@ -10783,6 +11911,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/cat-and-mouse/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1090",
@@ -10793,6 +11922,7 @@ const problems = [
       "https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1091",
@@ -10803,6 +11933,7 @@ const problems = [
       "https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1092",
@@ -10813,6 +11944,7 @@ const problems = [
       "https://leetcode.com/problems/largest-color-value-in-a-directed-graph/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1093",
@@ -10822,6 +11954,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/parallel-courses-iii",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1094",
@@ -10831,6 +11964,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/parallel-courses-ii/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1095",
@@ -10841,6 +11975,7 @@ const problems = [
       "https://leetcode.com/problems/number-of-increasing-paths-in-a-grid",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1096",
@@ -10850,6 +11985,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/build-a-matrix-with-conditions",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1097",
@@ -10859,6 +11995,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/flood-fill/description/",
     difficulty: "Easy",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1098",
@@ -10868,6 +12005,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/island-perimeter/description/",
     difficulty: "Easy",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1099",
@@ -10878,6 +12016,7 @@ const problems = [
       "https://leetcode.com/problems/battleships-in-a-board/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1100",
@@ -10887,6 +12026,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/number-of-islands/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1101",
@@ -10897,6 +12037,7 @@ const problems = [
       "https://leetcode.com/problems/max-area-of-island/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1102",
@@ -10906,6 +12047,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/count-sub-islands/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1103",
@@ -10916,6 +12058,7 @@ const problems = [
       "https://leetcode.com/problems/find-all-groups-of-farmland/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1104",
@@ -10925,6 +12068,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/rotting-oranges/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1105",
@@ -10935,6 +12079,7 @@ const problems = [
       "https://leetcode.com/problems/number-of-enclaves/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1106",
@@ -10945,6 +12090,7 @@ const problems = [
       "https://leetcode.com/problems/map-of-highest-peak/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1107",
@@ -10955,6 +12101,7 @@ const problems = [
       "https://leetcode.com/problems/surrounded-regions/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1108",
@@ -10965,6 +12112,7 @@ const problems = [
       "https://leetcode.com/problems/number-of-closed-islands/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1109",
@@ -10974,6 +12122,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/01-matrix/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1110",
@@ -10983,6 +12132,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/shortest-bridge/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1111",
@@ -10992,6 +12142,7 @@ const problems = [
     problemLink: "https://cses.fi/problemset/task/1671/",
     difficulty: "Medium",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "1112",
@@ -11001,6 +12152,7 @@ const problems = [
     problemLink: "https://codeforces.com/contest/20/problem/C",
     difficulty: "Medium",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1113",
@@ -11010,6 +12162,7 @@ const problems = [
     problemLink: "https://cses.fi/problemset/task/1202/",
     difficulty: "Medium",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "1114",
@@ -11019,6 +12172,7 @@ const problems = [
     problemLink: "https://cses.fi/problemset/task/1195",
     difficulty: "Medium",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "1115",
@@ -11029,6 +12183,7 @@ const problems = [
       "https://leetcode.com/problems/network-delay-time/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1116",
@@ -11039,6 +12194,7 @@ const problems = [
       "https://leetcode.com/problems/cheapest-flights-within-k-stops",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1117",
@@ -11049,6 +12205,7 @@ const problems = [
       "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1118",
@@ -11059,6 +12216,7 @@ const problems = [
       "https://leetcode.com/problems/path-with-maximum-probability/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1119",
@@ -11069,6 +12227,7 @@ const problems = [
       "https://leetcode.com/problems/path-with-minimum-effort/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1120",
@@ -11079,6 +12238,7 @@ const problems = [
       "https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1121",
@@ -11089,6 +12249,7 @@ const problems = [
       "https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1122",
@@ -11098,6 +12259,7 @@ const problems = [
     problemLink: "Minimum Cost to Make at Least One Valid Path in a Grid",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1123",
@@ -11107,6 +12269,7 @@ const problems = [
     problemLink: "Minimum Obstacle Removal to Reach Corner",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1124",
@@ -11117,6 +12280,7 @@ const problems = [
       "https://leetcode.com/problems/shortest-path-in-binary-matrix/description/ ",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1125",
@@ -11127,6 +12291,7 @@ const problems = [
       "https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/ ",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1126",
@@ -11137,6 +12302,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1127",
@@ -11147,6 +12313,7 @@ const problems = [
       "https://leetcode.com/problems/second-minimum-time-to-reach-destination/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1128",
@@ -11156,6 +12323,7 @@ const problems = [
     problemLink: "https://cses.fi/problemset/task/1673",
     difficulty: "Medium",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "1129",
@@ -11165,6 +12333,7 @@ const problems = [
     problemLink: "https://cses.fi/problemset/task/1197",
     difficulty: "Medium",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "1130",
@@ -11174,6 +12343,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/bus-routes/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1131",
@@ -11183,6 +12353,7 @@ const problems = [
     problemLink: "https://cses.fi/problemset/task/1672/",
     difficulty: "Medium",
     platform: "CSES",
+    completionDifficulty: undefined,
   },
   {
     id: "1132",
@@ -11192,6 +12363,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/course-schedule-iv",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1133",
@@ -11203,6 +12375,7 @@ const problems = [
       "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1134",
@@ -11213,6 +12386,7 @@ const problems = [
       "https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i/description/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1135",
@@ -11223,6 +12397,7 @@ const problems = [
       "https://leetcode.com/problems/minimum-cost-to-convert-string-i/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1136",
@@ -11232,6 +12407,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/295/B",
     difficulty: "Medium",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1137",
@@ -11242,6 +12418,7 @@ const problems = [
       "https://leetcode.com/problems/design-graph-with-shortest-path-calculator",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1138",
@@ -11252,6 +12429,7 @@ const problems = [
       "https://leetcode.com/problems/number-of-possible-sets-of-closing-branches/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1140",
@@ -11262,6 +12440,7 @@ const problems = [
       "https://leetcode.com/problems/find-the-shortest-superstring/description/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1143",
@@ -11271,6 +12450,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/redundant-connection/",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1144",
@@ -11281,6 +12461,7 @@ const problems = [
       "https://leetcode.com/problems/satisfiability-of-equality-equations/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1145",
@@ -11290,6 +12471,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/smallest-string-with-swaps/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1146",
@@ -11299,6 +12481,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/accounts-merge/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1147",
@@ -11309,6 +12492,7 @@ const problems = [
       "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1148",
@@ -11318,6 +12502,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/find-latest-group-of-size-m/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1149",
@@ -11327,6 +12512,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/redundant-connection-ii/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1150",
@@ -11336,6 +12522,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/making-a-large-island/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1151",
@@ -11346,6 +12533,7 @@ const problems = [
       "https://leetcode.com/problems/gcd-sort-of-an-array/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1152",
@@ -11355,6 +12543,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/bricks-falling-when-hit/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1153",
@@ -11365,6 +12554,7 @@ const problems = [
       "https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1154",
@@ -11375,6 +12565,7 @@ const problems = [
       "https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1155",
@@ -11384,6 +12575,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/rank-transform-of-a-matrix",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1156",
@@ -11394,6 +12586,7 @@ const problems = [
       "https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/",
     difficulty: "Theory",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "1157",
@@ -11404,6 +12597,7 @@ const problems = [
       "https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/",
     difficulty: "Theory",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "1158",
@@ -11414,6 +12608,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1",
     difficulty: "Medium",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "1159",
@@ -11424,6 +12619,7 @@ const problems = [
       "https://leetcode.com/problems/min-cost-to-connect-all-points/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1160",
@@ -11434,6 +12630,7 @@ const problems = [
       "https://www.geeksforgeeks.org/problems/water-connection-problem5822/1",
     difficulty: "Hard",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "1161",
@@ -11444,6 +12641,7 @@ const problems = [
       "https://www.naukri.com/code360/problems/connecting-cities-with-minimum-cost_1386586",
     difficulty: "Medium",
     platform: "Naukri",
+    completionDifficulty: undefined,
   },
   {
     id: "1162",
@@ -11454,6 +12652,7 @@ const problems = [
       "https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1163",
@@ -11464,6 +12663,7 @@ const problems = [
       "https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/description/",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1164",
@@ -11474,6 +12674,7 @@ const problems = [
       "https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/",
     difficulty: "Theory",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "1165",
@@ -11483,6 +12684,7 @@ const problems = [
     problemLink: "https://www.geeksforgeeks.org/strongly-connected-components/",
     difficulty: "Theory",
     platform: "GeeksforGeeks",
+    completionDifficulty: undefined,
   },
   {
     id: "1166",
@@ -11493,6 +12695,7 @@ const problems = [
       "https://leetcode.com/problems/critical-connections-in-a-network/",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1222",
@@ -11502,6 +12705,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/divisor-game",
     difficulty: "Easy",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1223",
@@ -11511,6 +12715,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/nim-game",
     difficulty: "Easy",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1224",
@@ -11521,6 +12726,7 @@ const problems = [
       "https://leetcode.com/problems/find-the-winning-player-in-coin-game",
     difficulty: "Easy",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1225",
@@ -11530,6 +12736,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/1480/A",
     difficulty: "Easy",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1226",
@@ -11539,6 +12746,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/1398/B",
     difficulty: "Easy",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1227",
@@ -11548,6 +12756,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/832/A",
     difficulty: "Easy",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1228",
@@ -11557,6 +12766,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/1270/A",
     difficulty: "Easy",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1229",
@@ -11566,6 +12776,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/1373/B",
     difficulty: "Easy",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1230",
@@ -11575,6 +12786,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/1419/A",
     difficulty: "Easy",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1231",
@@ -11584,6 +12796,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/can-i-win",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1232",
@@ -11594,6 +12807,7 @@ const problems = [
       "https://leetcode.com/problems/guess-number-higher-or-lower-ii",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1233",
@@ -11604,6 +12818,7 @@ const problems = [
       "https://leetcode.com/problems/maximum-number-of-coins-you-can-get",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1234",
@@ -11614,6 +12829,7 @@ const problems = [
       "https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color",
     difficulty: "Medium",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1235",
@@ -11623,6 +12839,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/1419/A",
     difficulty: "Medium",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1236",
@@ -11632,6 +12849,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/616/B",
     difficulty: "Medium",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1237",
@@ -11641,6 +12859,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/1365/A",
     difficulty: "Medium",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1238",
@@ -11650,6 +12869,7 @@ const problems = [
     problemLink: "https://codeforces.com/contest/1382/problem/B",
     difficulty: "Medium",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1239",
@@ -11659,6 +12879,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/1455/C",
     difficulty: "Medium",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1240",
@@ -11668,6 +12889,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/841/B",
     difficulty: "Medium",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1241",
@@ -11677,6 +12899,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/755/B",
     difficulty: "Medium",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1242",
@@ -11686,6 +12909,7 @@ const problems = [
     problemLink: "https://codeforces.com/problemset/problem/1472/D",
     difficulty: "Medium",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1243",
@@ -11695,6 +12919,7 @@ const problems = [
     problemLink: "https://codeforces.com/contest/1527/problem/B1",
     difficulty: "Medium",
     platform: "Codeforces",
+    completionDifficulty: undefined,
   },
   {
     id: "1244",
@@ -11704,6 +12929,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/cat-and-mouse",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1245",
@@ -11713,6 +12939,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/cat-and-mouse-ii",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1246",
@@ -11722,6 +12949,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/guess-the-word",
     difficulty: "Hard",
     platform: "LeetCode",
+    completionDifficulty: undefined,
   },
   {
     id: "1247",
@@ -11732,6 +12960,7 @@ const problems = [
       "https://leetcode.com/problems/alternating-groups-iii/description/ ",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1248",
@@ -11742,6 +12971,7 @@ const problems = [
       "https://leetcode.com/problems/number-of-pairs-satisfying-inequality/description/ ",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1249",
@@ -11752,6 +12982,7 @@ const problems = [
       "https://leetcode.com/problems/count-good-triplets-in-an-array/description/ ",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1250",
@@ -11762,6 +12993,7 @@ const problems = [
       "https://leetcode.com/problems/booking-concert-tickets-in-groups/description/ ",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1251",
@@ -11772,6 +13004,7 @@ const problems = [
       "https://leetcode.com/problems/longest-uploaded-prefix/description/ ",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1252",
@@ -11782,6 +13015,7 @@ const problems = [
       "https://leetcode.com/problems/range-sum-query-mutable/description/  ",
     difficulty: "Medium",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1253",
@@ -11791,6 +13025,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/falling-squares/description/ ",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1254",
@@ -11800,6 +13035,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/range-module/description/ ",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1255",
@@ -11810,6 +13046,7 @@ const problems = [
       "https://leetcode.com/problems/count-of-range-sum/description/ ",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1256",
@@ -11820,6 +13057,7 @@ const problems = [
       "https://leetcode.com/problems/longest-substring-of-one-repeating-character/description/ ",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1257",
@@ -11830,6 +13068,7 @@ const problems = [
       "https://leetcode.com/problems/maximum-sum-queries/description/ ",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1258",
@@ -11840,6 +13079,7 @@ const problems = [
       "https://leetcode.com/problems/handling-sum-queries-after-update/description/ ",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1259",
@@ -11849,6 +13089,7 @@ const problems = [
     problemLink: "https://leetcode.com/problems/peaks-in-array/description/ ",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1260",
@@ -11859,6 +13100,7 @@ const problems = [
       "https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/description/",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1261",
@@ -11869,6 +13111,7 @@ const problems = [
       "https://leetcode.com/problems/block-placement-queries/description/ ",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1262",
@@ -11878,6 +13121,7 @@ const problems = [
     problemLink: "https://www.spoj.com/problems/RMQSQ/",
     difficulty: "Hard",
     platform: "SPOJ",
+    completionDifficulty: undefined,
   },
   {
     id: "1263",
@@ -11887,6 +13131,7 @@ const problems = [
     problemLink: "http://www.spoj.com/problems/THRBL/",
     difficulty: "Hard",
     platform: "SPOJ",
+    completionDifficulty: undefined,
   },
   {
     id: "1264",
@@ -11896,6 +13141,7 @@ const problems = [
     problemLink: "http://www.spoj.com/problems/TNVFC1M/",
     difficulty: "Hard",
     platform: "SPOJ",
+    completionDifficulty: undefined,
   },
   {
     id: "1265",
@@ -11905,6 +13151,7 @@ const problems = [
     problemLink: "http://www.spoj.com/problems/RPLN/",
     difficulty: "Hard",
     platform: "SPOJ",
+    completionDifficulty: undefined,
   },
   {
     id: "1266",
@@ -11914,6 +13161,7 @@ const problems = [
     problemLink: "https://www.spoj.com/problems/DIFERENC/",
     difficulty: "Hard",
     platform: "SPOJ",
+    completionDifficulty: undefined,
   },
   {
     id: "1267",
@@ -11924,6 +13172,7 @@ const problems = [
       "https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/ ",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
   {
     id: "1268",
@@ -11934,6 +13183,7 @@ const problems = [
       "https://leetcode.com/problems/maximum-binary-tree/description/ ",
     difficulty: "Hard",
     platform: "Leetcode",
+    completionDifficulty: undefined,
   },
 ];
 

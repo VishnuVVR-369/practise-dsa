@@ -39,15 +39,18 @@ export default function SubgroupAccordion({
           <table className="min-w-full divide-y divide-gray-200 bg-white rounded-lg">
             <thead className="bg-gray-100">
               <tr>
-                <th className="px-2 py-3 text-left text-xs font-bold text-gray-700 uppercase tracking-wider whitespace-nowrap"></th>
+                <th className="px-2 py-3 text-center text-xs font-bold text-gray-700 uppercase tracking-wider whitespace-nowrap"></th>
                 <th className="px-4 py-3 text-left text-xs font-bold text-gray-700 uppercase tracking-wider whitespace-nowrap">
                   Title
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-bold text-gray-700 uppercase tracking-wider whitespace-nowrap">
+                <th className="px-4 py-3 text-center text-xs font-bold text-gray-700 uppercase tracking-wider whitespace-nowrap">
                   Difficulty
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-bold text-gray-700 uppercase tracking-wider whitespace-nowrap">
+                <th className="px-4 py-3 text-center text-xs font-bold text-gray-700 uppercase tracking-wider whitespace-nowrap">
                   Link
+                </th>
+                <th className="px-4 py-3 text-center text-xs font-bold text-gray-700 uppercase tracking-wider whitespace-nowrap">
+                  Revision
                 </th>
               </tr>
             </thead>

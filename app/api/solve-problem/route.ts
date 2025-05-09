@@ -3,7 +3,7 @@ import { MongoClient } from "mongodb";
 
 export async function PATCH(req: Request) {
   try {
-    const { id, status } = await req.json();
+    const { id, status, completionDifficulty } = await req.json();
     if (!id) return NextResponse.json({ error: "Missing id" }, { status: 400 });
 
     const uri = process.env.DATABASE_URL;
@@ -14,10 +14,10 @@ export async function PATCH(req: Request) {
 
     let update;
     if (status === "Unsolved") {
-      update = { $set: { status: "Unsolved", dateSolved: null } };
+      update = { $set: { status: "Unsolved", dateSolved: null, completionDifficulty: undefined } };
     } else {
       update = {
-        $set: { status: "Solved", dateSolved: new Date().toISOString() },
+        $set: { status: "Solved", dateSolved: new Date().toISOString(), completionDifficulty },
       };
     }
 

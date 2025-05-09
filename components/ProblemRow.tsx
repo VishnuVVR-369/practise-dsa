@@ -10,64 +10,77 @@ interface ProblemRowProps {
 }
 
 import { useState } from "react";
+import styles from "./ProblemRow.module.css";
 
 export default function ProblemRow({
   problem,
   onStatusChange,
 }: ProblemRowProps) {
   const [localStatus, setLocalStatus] = useState(problem.status);
+  const [completionDifficulty, setCompletionDifficulty] = useState<string | undefined>(problem.completionDifficulty);
 
   return (
-    <tr key={problem.id} className="hover:bg-blue-50 transition-colors">
-      <td className="py-3 px-2 text-center">
-        <input
-          type="checkbox"
-          checked={localStatus === "Solved"}
-          onChange={async () => {
-            const nextStatus = localStatus === "Solved" ? "Unsolved" : "Solved";
-            setLocalStatus(nextStatus); // Optimistically update UI
-            if (onStatusChange) onStatusChange(problem.id, nextStatus);
-            try {
-              const res = await fetch("/api/solve-problem", {
-                method: "PATCH",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ id: problem.id, status: nextStatus }),
-              });
-              if (res.ok) {
-                console.log(`Problem marked as ${nextStatus}:`, problem.id);
-              } else {
-                const err = await res.json();
-                setLocalStatus(localStatus); // Revert on error
-                if (onStatusChange) onStatusChange(problem.id, localStatus);
-                console.error("Failed to update problem:", err.error);
+    <tr
+      key={problem.id}
+      className={
+        localStatus === "Solved" && completionDifficulty === "Easy"
+          ? styles.revisionBgEasy
+          : localStatus === "Solved" && completionDifficulty === "Medium"
+          ? styles.revisionBgMedium
+          : localStatus === "Solved" && completionDifficulty === "Hard"
+          ? styles.revisionBgHard
+          : ""
+      }
+    >
+      <td className="px-2 py-3 text-center align-middle">
+        <span className={styles.customCheckbox}>
+          <input
+            type="checkbox"
+            id={`problem-${problem.id}-completed`}
+            checked={localStatus === "Solved"}
+            onChange={async () => {
+              const nextStatus = localStatus === "Solved" ? "Unsolved" : "Solved";
+              setLocalStatus(nextStatus);
+              if (onStatusChange) onStatusChange(problem.id, nextStatus);
+              try {
+                const res = await fetch("/api/solve-problem", {
+                  method: "PATCH",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({ id: problem.id, status: nextStatus, completionDifficulty }),
+                });
+                if (!res.ok) {
+                  setLocalStatus(localStatus);
+                }
+              } catch {
+                setLocalStatus(localStatus);
               }
-            } catch (e) {
-              setLocalStatus(localStatus); // Revert on error
-              if (onStatusChange) onStatusChange(problem.id, localStatus);
-              console.error("Network error:", e);
-            }
-          }}
-          className="form-checkbox h-4 w-4 text-blue-600 cursor-pointer"
-        />
+            }}
+          />
+          <label htmlFor={`problem-${problem.id}-completed`}><span className={styles.srOnly}>Mark {problem.title} as {localStatus === "Solved" ? "unsolved" : "solved"}</span></label>
+        </span>
       </td>
-      <td className="py-3 px-4 text-sm font-medium max-w-xs break-words">
+      <td className={"px-4 py-3 text-left font-medium max-w-xs break-words" + (localStatus === "Solved" ? " " + styles.completed : "")}>
         {problem.title}
       </td>
-      <td
-        className={`py-3 px-4 text-sm font-semibold whitespace-nowrap ${
-          problem.difficulty === "Theory"
-            ? "text-gray-400"
-            : problem.difficulty === "Easy"
-            ? "text-green-600"
-            : problem.difficulty === "Medium"
-            ? "text-orange-500"
-            : "text-red-500"
-        }`}
-      >
-        {problem.difficulty}
+      <td className="px-4 py-3 text-center">
+        <span
+          className={
+            styles.difficultyBadge +
+            " " +
+            (problem.difficulty === "Easy"
+              ? styles.badgeEasy
+              : problem.difficulty === "Medium"
+              ? styles.badgeMedium
+              : problem.difficulty === "Hard"
+              ? styles.badgeHard
+              : styles.badgeTheory)
+          }
+        >
+          {problem.difficulty}
+        </span>
       </td>
-      <td className="py-3 px-4 text-sm whitespace-nowrap">
-        {problem.problemLink && problem.problemLink !== "NA" ? (
+      <td className="px-4 py-3 text-center">
+      {problem.problemLink && problem.problemLink !== "NA" ? (
           problem.problemLink.includes("leetcode.com") ? (
             <Link
               href={problem.problemLink}
@@ -79,8 +92,8 @@ export default function ProblemRow({
               <Image
                 src="/leetcode.svg"
                 alt="LeetCode"
-                width={28}
-                height={28}
+                width={20}
+                height={20}
                 className="inline-block align-middle hover:scale-110 transition"
               />
             </Link>
@@ -97,6 +110,49 @@ export default function ProblemRow({
         ) : (
           <span className="text-gray-400">NA</span>
         )}
+      </td>
+      <td className="px-4 py-3 text-center">
+        <div className={styles.revisionButtons}>
+          {["Easy", "Medium", "Hard"].map((level) => (
+            <span key={level}>
+              <input
+                type="radio"
+                name={`problem-${problem.id}-revision`}
+                id={`problem-${problem.id}-rev-${level.toLowerCase()}`}
+                value={level}
+                checked={completionDifficulty === level}
+                onChange={async () => {
+                  setCompletionDifficulty(level);
+                  try {
+                    await fetch("/api/solve-problem", {
+                      method: "PATCH",
+                      headers: { "Content-Type": "application/json" },
+                      body: JSON.stringify({ id: problem.id, status: localStatus, completionDifficulty: level }),
+                    });
+                  } catch {}
+                }}
+                disabled={localStatus !== "Solved"}
+              />
+              <label
+                htmlFor={`problem-${problem.id}-rev-${level.toLowerCase()}`}
+                className={
+                  styles.revisionLabel +
+                  " " +
+                  (completionDifficulty === level
+                    ? level === "Easy"
+                      ? styles.selectedEasy
+                      : level === "Medium"
+                      ? styles.selectedMedium
+                      : styles.selectedHard
+                    : "")
+                }
+                style={{ cursor: localStatus !== "Solved" ? 'not-allowed' : 'pointer', opacity: localStatus !== "Solved" ? 0.6 : 1 }}
+              >
+                {level === "Hard" ? "Hard" : level}
+              </label>
+            </span>
+          ))}
+        </div>
       </td>
     </tr>
   );

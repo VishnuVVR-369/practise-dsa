@@ -33,6 +33,7 @@ export interface Problem {
   articleLink?: string;
   tags: string[];
   platform?: string;
+  completionDifficulty?: string;
 }
 
 export const problems: Problem[] = [
