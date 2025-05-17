@@ -2,64 +2,42 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import type { Problem } from "@/app/consts";
+import type { Problem } from "@/lib/types";
+import styles from "./ProblemRow.module.css";
 
 interface ProblemRowProps {
   problem: Problem;
-  onStatusChange?: (id: string, newStatus: string) => void;
+  onStatusChange: (id: number, newStatus: string) => void;
+  onRevisionChange: (id: number, level: string) => void;
 }
 
-import { useState } from "react";
-import styles from "./ProblemRow.module.css";
-
-export default function ProblemRow({
-  problem,
-  onStatusChange,
-}: ProblemRowProps) {
-  const [localStatus, setLocalStatus] = useState(problem.status);
-  const [completionDifficulty, setCompletionDifficulty] = useState<string | undefined>(problem.completionDifficulty);
+export default function ProblemRow({ problem, onStatusChange, onRevisionChange }: ProblemRowProps) {
+  const lastRevision = (problem.completionDifficulty ?? []).slice(-1)[0] || '';
+  let revisionBg = '';
+  if (lastRevision === 'Easy') revisionBg = 'bg-green-100';
+  else if (lastRevision === 'Medium') revisionBg = 'bg-yellow-100';
+  else if (lastRevision === 'Hard') revisionBg = 'bg-red-100';
 
   return (
     <tr
-      key={problem.id}
-      className={
-        localStatus === "Solved" && completionDifficulty === "Easy"
-          ? styles.revisionBgEasy
-          : localStatus === "Solved" && completionDifficulty === "Medium"
-          ? styles.revisionBgMedium
-          : localStatus === "Solved" && completionDifficulty === "Hard"
-          ? styles.revisionBgHard
-          : ""
-      }
+      className={`bg-background transition ${revisionBg}`}
+      style={revisionBg ? { color: '#222' } : {}}
     >
       <td className="px-2 py-3 text-center align-middle">
         <span className={styles.customCheckbox}>
           <input
             type="checkbox"
             id={`problem-${problem.id}-completed`}
-            checked={localStatus === "Solved"}
-            onChange={async () => {
-              const nextStatus = localStatus === "Solved" ? "Unsolved" : "Solved";
-              setLocalStatus(nextStatus);
-              if (onStatusChange) onStatusChange(problem.id, nextStatus);
-              try {
-                const res = await fetch("/api/solve-problem", {
-                  method: "PATCH",
-                  headers: { "Content-Type": "application/json" },
-                  body: JSON.stringify({ id: problem.id, status: nextStatus, completionDifficulty }),
-                });
-                if (!res.ok) {
-                  setLocalStatus(localStatus);
-                }
-              } catch {
-                setLocalStatus(localStatus);
-              }
+            checked={problem.status === "Solved"}
+            onChange={() => {
+              const nextStatus = problem.status === "Solved" ? "Unsolved" : "Solved";
+              onStatusChange(problem.id, nextStatus);
             }}
           />
-          <label htmlFor={`problem-${problem.id}-completed`}><span className={styles.srOnly}>Mark {problem.title} as {localStatus === "Solved" ? "unsolved" : "solved"}</span></label>
+          <label htmlFor={`problem-${problem.id}-completed`}><span className={styles.srOnly}>Mark {problem.title} as {problem.status === "Solved" ? "unsolved" : "solved"}</span></label>
         </span>
       </td>
-      <td className={"px-4 py-3 text-left font-medium max-w-xs break-words" + (localStatus === "Solved" ? " " + styles.completed : "")}>
+      <td className={"px-4 py-3 text-left font-medium max-w-xs break-words" + (problem.status === "Solved" ? " " + styles.completed : "")}>
         {problem.title}
       </td>
       <td className="px-4 py-3 text-center">
@@ -120,25 +98,18 @@ export default function ProblemRow({
                 name={`problem-${problem.id}-revision`}
                 id={`problem-${problem.id}-rev-${level.toLowerCase()}`}
                 value={level}
-                checked={completionDifficulty === level}
-                onChange={async () => {
-                  setCompletionDifficulty(level);
-                  try {
-                    await fetch("/api/solve-problem", {
-                      method: "PATCH",
-                      headers: { "Content-Type": "application/json" },
-                      body: JSON.stringify({ id: problem.id, status: localStatus, completionDifficulty: level }),
-                    });
-                  } catch {}
+                checked={((problem.completionDifficulty ?? []).slice(-1)[0]) === level}
+                onChange={() => {
+                  onRevisionChange(problem.id, level);
                 }}
-                disabled={localStatus !== "Solved"}
+                disabled={problem.status !== "Solved"}
               />
               <label
                 htmlFor={`problem-${problem.id}-rev-${level.toLowerCase()}`}
                 className={
                   styles.revisionLabel +
                   " " +
-                  (completionDifficulty === level
+                  (((problem.completionDifficulty ?? []).slice(-1)[0]) === level
                     ? level === "Easy"
                       ? styles.selectedEasy
                       : level === "Medium"
@@ -146,7 +117,7 @@ export default function ProblemRow({
                       : styles.selectedHard
                     : "")
                 }
-                style={{ cursor: localStatus !== "Solved" ? 'not-allowed' : 'pointer', opacity: localStatus !== "Solved" ? 0.6 : 1 }}
+                style={{ cursor: problem.status !== "Solved" ? 'not-allowed' : 'pointer', opacity: problem.status !== "Solved" ? 0.6 : 1 }}
               >
                 {level === "Hard" ? "Hard" : level}
               </label>

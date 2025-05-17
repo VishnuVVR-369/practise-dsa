@@ -1,56 +1,44 @@
-import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { useRouter } from "next/navigation";
 import ProgressBar from "./ProgressBar";
-import { subgroups } from "@/app/consts";
+import { Problem } from "@/lib/types";
+import Link from "next/link";
 
 interface TopicCardProps {
-  topic: string;
-  problems: any[];
+  label: string;
+  problems: Problem[];
 }
 
-export default function TopicCard({ topic, problems }: TopicCardProps) {
-  const router = useRouter();
-  const topicProblems = problems.filter((p) =>
-    subgroups
-      .filter((d) => d.title === topic)
-      .flatMap((d) => d.subgroups)
-      .flatMap((sg) => sg.problems)
-      .includes(p.id)
-  );
-  const completed = topicProblems.filter((p) => p.status === "Solved").length;
+export default function TopicCard({ label, problems }: TopicCardProps) {
+  const completed = problems.filter((p) => p.status === "Solved").length;
+  const total = problems.length;
+  const easyCount = problems.filter((p) => p.difficulty === "Easy").length;
+  const mediumCount = problems.filter((p) => p.difficulty === "Medium").length;
+  const hardCount = problems.filter((p) => p.difficulty === "Hard").length;
+
   return (
-    <Card className="bg-blue-100">
-      <CardHeader className="flex justify-between items-center">
-        <CardTitle>{topic}</CardTitle>
-        <Button
-          size="sm"
-          className="cursor-pointer"
-          onClick={() => router.push(`/topic/${encodeURIComponent(topic)}`)}
+    <div className="bg-[#23223A] rounded-2xl p-6 w-full shadow-lg">
+      <div className="flex justify-between items-center mb-6">
+        <span className="text-xl font-bold text-gray-100">{label}</span>
+      </div>
+      <ProgressBar completed={completed} total={total} label="" />
+      <div className="flex justify-between gap-1 items-center mt-6 mb-8">
+        <span className="bg-green-900/70 text-green-300 font-semibold px-2 py-2 rounded-lg text-xs">
+          Easy: {easyCount}
+        </span>
+        <span className="bg-yellow-900/70 text-yellow-300 font-semibold px-2 py-2 rounded-lg text-xs">
+          Medium: {mediumCount}
+        </span>
+        <span className="bg-red-900/70 text-red-300 font-semibold px-2 py-2 rounded-lg text-xs">
+          Hard: {hardCount}
+        </span>
+      </div>
+      <Link href={`/topic/${encodeURIComponent(label)}`} target="_blank">
+        <button
+          className="w-full bg-[#2186FF] hover:bg-[#1566d6] text-white text-xl font-semibold py-3 rounded-xl transition-colors duration-200 cursor-pointer"
+          type="button"
         >
           Start Now
-        </Button>
-      </CardHeader>
-      <div className="px-6 pb-2">
-        <ProgressBar
-          completed={completed}
-          total={topicProblems.length}
-          label="Progress"
-        />
-      </div>
-      <CardDescription className="pl-6">
-        Total Problems {topicProblems.length}
-      </CardDescription>
-      <CardDescription className="pl-6">
-        <span className="mr-4">Easy: {topicProblems.filter(p => p.difficulty === 'Easy').length}</span>
-        <span className="mr-4">Medium: {topicProblems.filter(p => p.difficulty === 'Medium').length}</span>
-        <span>Hard: {topicProblems.filter(p => p.difficulty === 'Hard').length}</span>
-      </CardDescription>
-    </Card>
+        </button>
+      </Link>
+    </div>
   );
 }
