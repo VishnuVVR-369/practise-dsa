@@ -112,7 +112,6 @@ export default function StatsCharts({ problems }: { problems: Problem[] }) {
     }
     weeklyLabels = weeks;
     weeklyData = weeks.map(week => weekly[week] || 0);
-    console.log(weeklyLabels, weeklyData);
   }
 
   // Count solved problems by difficulty

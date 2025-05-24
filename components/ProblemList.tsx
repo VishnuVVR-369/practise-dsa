@@ -1,5 +1,6 @@
 "use client";
 
+import React, { useEffect, useState } from "react";
 import type { Problem } from "@/lib/types";
 import { groupBy } from "lodash";
 import ProblemRow from "./ProblemRow";
@@ -10,17 +11,17 @@ import {
   AccordionContent,
 } from "./ui/accordion";
 
-import React, { useState } from "react";
-
 export default function ProblemList({ problems }: { problems: Problem[] }) {
   const [localProblems, setLocalProblems] = useState(problems);
-  const groupedProblems = Object.entries(
-    groupBy(localProblems, (problem: Problem) => problem.subgroup)
-  );
-  console.log(groupedProblems);
+  useEffect(() => {
+    setLocalProblems(problems);
+  }, [problems]);
 
   const getSolvedCount = (problems: Problem[]) =>
     problems.filter((p) => p.status === "Solved").length;
+  const groupedProblems = Object.entries(
+    groupBy(localProblems, (problem: Problem) => problem.subgroup)
+  );
 
   return (
     <Accordion type="multiple" className="w-full">

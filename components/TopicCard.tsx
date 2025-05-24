@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import ProgressBar from "./ProgressBar";
 import { Problem } from "@/lib/types";
 import Link from "next/link";
@@ -13,6 +15,7 @@ export default function TopicCard({ label, problems }: TopicCardProps) {
   const easyCount = problems.filter((p) => p.difficulty === "Easy").length;
   const mediumCount = problems.filter((p) => p.difficulty === "Medium").length;
   const hardCount = problems.filter((p) => p.difficulty === "Hard").length;
+  console.log(completed, total);
 
   return (
     <div className="bg-[#23223A] rounded-2xl p-6 w-full shadow-lg">
