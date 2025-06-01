@@ -6,19 +6,36 @@ import { z } from "zod";
 
 const solveProblemSchema = z.object({
   id: z.number(),
-  status: z.enum(["Solved", "Unsolved"]),
+  completionDifficulty: z.enum(["Easy", "Medium", "Hard"]),
 });
 
 export async function PATCH(req: Request) {
   try {
-    const { id, status } = await solveProblemSchema.parseAsync(
+    const { id, completionDifficulty } = await solveProblemSchema.parseAsync(
       await req.json()
     );
     if (!id) return NextResponse.json({ error: "Missing id" }, { status: 400 });
 
+    const currentValue = await db
+      .select()
+      .from(problemsTable)
+      .where(eq(problemsTable.id, Number(id)));
+    if (!currentValue)
+      return NextResponse.json({ error: "Problem not found" }, { status: 404 });
+
+    const newRevisedAt = currentValue[0].revisedAt
+      ? [...currentValue[0].revisedAt, new Date()]
+      : [new Date()];
+    const newCompletionDifficulty = currentValue[0].completionDifficulty
+      ? [...currentValue[0].completionDifficulty, completionDifficulty]
+      : [completionDifficulty];
+    
     const result = await db
       .update(problemsTable)
-      .set({ status, solvedAt: new Date() })
+      .set({
+        revisedAt: newRevisedAt,
+        completionDifficulty: newCompletionDifficulty,
+      })
       .where(eq(problemsTable.id, Number(id)));
 
     if (result.rowCount) {
