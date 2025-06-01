@@ -4,8 +4,16 @@ import { problemsTable } from "@/db/schema";
 import { eq } from "drizzle-orm";
 
 export async function GET() {
-  const problems = await db.select().from(problemsTable);
-  return NextResponse.json(problems);
+  try {
+    const problems = await db.select().from(problemsTable);
+    return NextResponse.json(problems);
+  } catch (err) {
+    console.error(err);
+    return NextResponse.json(
+      { error: "Failed to fetch problems" },
+      { status: 500 }
+    );
+  }
 }
 
 export async function POST(req: Request) {

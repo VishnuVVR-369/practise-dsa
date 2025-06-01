@@ -1,22 +1,29 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import Dashboard from "@/components/Dashboard"
-import Revise from "@/components/Revise"
+"use client";
 
-export default async function Home() {
-  return (
-    <main className="container mx-auto flex items-center flex-col h-screen">
-      <h1 className="text-5xl font-bold mb-4 mt-16 color-text-primary">Learn DSA the right way</h1>
-      <h4 className="text-2xl text-muted-foreground mb-4 color-text-secondary">
-        Your personalised DSA Progress Dashboard
-      </h4>
-      <Tabs defaultValue="dashboard" className="w-full">
-        <TabsList className="w-full">
-          <TabsTrigger value="dashboard" className="cursor-pointer">Dashboard</TabsTrigger>
-          <TabsTrigger value="revise" className="cursor-pointer">Revise</TabsTrigger>
-        </TabsList>
-        <TabsContent value="dashboard"><Dashboard /></TabsContent>
-        <TabsContent value="revise"><Revise /></TabsContent>
-      </Tabs>
-    </main>
-  );
+import { useState, useEffect } from "react";
+import Dashboard from "@/components/Dashboard";
+import DashboardSkeleton from "@/components/DashboardSkeleton";
+
+export default function Home() {
+  const [allProblems, setAllProblems] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchAllProblems = async () => {
+      const allProblems = await fetch(`/api/all-problems`)
+        .then((res) => res.json())
+        .catch((err) => {
+          console.error(err);
+        });
+      setAllProblems(allProblems);
+      setLoading(false);
+    };
+    fetchAllProblems();
+  }, []);
+
+  if (loading) return <DashboardSkeleton />;
+  if (!allProblems || allProblems.length === 0)
+    return <div>No problems found.</div>;
+
+  return <Dashboard allProblems={allProblems} />;
 }

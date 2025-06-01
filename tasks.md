@@ -1,9 +1,0 @@
-- [x] Analyse the problems and sub problems arrays and verify if we can display all the problems based on topic and sub topic.
-- [x] Add drizzle ORM to connect with Postgres database.
-- [x] Create a schema for problems.
-- [x] Migrate data from current mongodb to postgres.
-- [x] Implement all API routes.
-- [ ] Implement topics and sub topics in the UI.
-- [ ] Implement charts and analytics.
-- [ ] Implement revise tab.
-- [ ] Implement mobile push notifications.

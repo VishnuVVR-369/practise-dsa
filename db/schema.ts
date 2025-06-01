@@ -1,5 +1,4 @@
 import { integer, pgTable, varchar, timestamp } from "drizzle-orm/pg-core";
-import { DIFFICULTY, PROBLEM_STATUS, PLATFORM } from "../lib/types";
 
 export const problemsTable = pgTable("problems", {
   id: integer().primaryKey().generatedAlwaysAsIdentity({ startWith: 1, increment: 1 }),
