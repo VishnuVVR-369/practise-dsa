@@ -31,11 +31,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/faang.png" />
       </head>
-      <body
-        className={`${roboto.variable} antialiased dark`}
-      >
-        {children}
-      </body>
+      <body className={`${roboto.variable} antialiased dark`}>{children}</body>
     </html>
   );
 }

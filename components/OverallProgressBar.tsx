@@ -1,17 +1,21 @@
-import { Trophy, Target } from 'lucide-react';
-import type { Problem } from '@/lib/types';
-import { getAllStatistics } from '@/lib/utils';
+import { Trophy, Target } from "lucide-react";
+import type { Problem } from "@/lib/types";
+import { getAllStatistics } from "@/lib/utils";
 
 export function OverallProgressBar({ problems }: { problems: Problem[] }) {
-  const percentage = Math.round((problems.filter((problem) => problem.status === 'Solved').length / problems.length) * 100);
+  const percentage = Math.round(
+    (problems.filter((problem) => problem.status === "Solved").length /
+      problems.length) *
+      100
+  );
   const {
-      totalEasy,
-      totalMedium,
-      totalHard,
-      solvedEasy,
-      solvedMedium,
-      solvedHard,
-    } = getAllStatistics(problems);
+    totalEasy,
+    totalMedium,
+    totalHard,
+    solvedEasy,
+    solvedMedium,
+    solvedHard,
+  } = getAllStatistics(problems);
   const getMotivationalMessage = () => {
     if (percentage === 100) return "🏆 Legendary! You've conquered them all!";
     if (percentage >= 90) return "🔥 Almost legendary! Final push!";
@@ -35,21 +39,25 @@ export function OverallProgressBar({ problems }: { problems: Problem[] }) {
           </span>
         </div>
       </div>
-      
+
       <div className="w-full bg-slate-700 rounded-full h-6 mb-4 overflow-hidden">
-        <div 
+        <div
           className="bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 h-6 rounded-full transition-all duration-1000 ease-out relative"
           style={{ width: `${percentage}%` }}
         >
           <div className="absolute inset-0 bg-white/20 rounded-full animate-pulse"></div>
         </div>
       </div>
-      
+
       <div className="flex justify-between text-slate-300 mb-4">
-        <span className="font-bold text-green-400">{solvedEasy + solvedMedium + solvedHard} conquered</span>
-        <span className="font-bold text-blue-400">{totalEasy + totalMedium + totalHard} total challenges</span>
+        <span className="font-bold text-green-400">
+          {solvedEasy + solvedMedium + solvedHard} conquered
+        </span>
+        <span className="font-bold text-blue-400">
+          {totalEasy + totalMedium + totalHard} total challenges
+        </span>
       </div>
-      
+
       <div className="text-center">
         <p className="text-lg font-semibold text-yellow-400 bg-yellow-500/20 px-4 py-2 rounded-full border border-yellow-500/30 inline-block">
           {getMotivationalMessage()}
@@ -57,4 +65,4 @@ export function OverallProgressBar({ problems }: { problems: Problem[] }) {
       </div>
     </div>
   );
-};
+}

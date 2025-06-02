@@ -1,5 +1,5 @@
-import { Sparkles, Star } from 'lucide-react';
-import React, { useEffect, useState } from 'react';
+import { Sparkles, Star } from "lucide-react";
+import React, { useEffect, useState } from "react";
 
 export default function MotivationalQuote() {
   const [quote, setQuote] = useState<string>("");
@@ -8,7 +8,7 @@ export default function MotivationalQuote() {
 
   useEffect(() => {
     setLoading(true);
-    fetch('/api/motivational-quote')
+    fetch("/api/motivational-quote")
       .then(async (res) => {
         if (!res.ok) throw new Error(await res.text());
         return res.json();
@@ -18,7 +18,7 @@ export default function MotivationalQuote() {
         setLoading(false);
       })
       .catch((err) => {
-        setError('Failed to load quote.');
+        setError("Failed to load quote.");
         setLoading(false);
         console.error(err);
       });
@@ -31,7 +31,7 @@ export default function MotivationalQuote() {
       <div className="absolute top-4 right-4">
         <Star className="text-yellow-400 w-6 h-6 animate-pulse" />
       </div>
-      
+
       <div className="flex items-center justify-center">
         <div className="text-center max-w-4xl">
           <h2 className="text-2xl font-bold mb-4 bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">

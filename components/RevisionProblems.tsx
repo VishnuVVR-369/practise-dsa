@@ -56,7 +56,8 @@ export const RevisionProblems = () => {
   };
 
   const getRevisionButtonColor = (level: string, isSelected: boolean) => {
-    const baseClasses = "text-xs px-2 py-1 rounded border transition-colors";
+    const baseClasses =
+      "text-xs px-2 py-1 rounded border transition-colors cursor-pointer";
     if (isSelected) {
       switch (level) {
         case "Easy":
@@ -189,7 +190,7 @@ export const RevisionProblems = () => {
                                   );
                                 }
                               }}
-                              className="border-slate-600 data-[state=checked]:bg-green-600 data-[state=checked]:border-green-600"
+                              className="border-slate-600 data-[state=checked]:bg-green-600 data-[state=checked]:border-green-600 cursor-pointer"
                             />
                           </div>
                           <div>
@@ -203,7 +204,7 @@ export const RevisionProblems = () => {
                               size="sm"
                               className={`${getDifficultyColor(
                                 problem.difficulty
-                              )} border transition-colors cursor-pointer`}
+                              )} border transition-colors`}
                             >
                               {problem.difficulty}
                             </Button>
@@ -250,16 +251,29 @@ export const RevisionProblems = () => {
                                     size="sm"
                                     disabled={!isSolved}
                                     onClick={async () => {
-                                      setProblems(prev => prev?.map(p =>
-                                        p.id === problem.id
-                                          ? { ...p, completionDifficulty: [...(p.completionDifficulty || []), level] }
-                                          : p
-                                      ));
+                                      setProblems((prev) =>
+                                        prev?.map((p) =>
+                                          p.id === problem.id
+                                            ? {
+                                                ...p,
+                                                completionDifficulty: [
+                                                  ...(p.completionDifficulty ||
+                                                    []),
+                                                  level,
+                                                ],
+                                              }
+                                            : p
+                                        )
+                                      );
                                       setRevisionProblems((prev) => {
-                                        prev.map(prob => {
-                                          prob.problems.map(p => {
+                                        prev.map((prob) => {
+                                          prob.problems.map((p) => {
                                             if (p.id === problem.id) {
-                                              p.completionDifficulty = [...(p.completionDifficulty || []), level];
+                                              p.completionDifficulty = [
+                                                ...(p.completionDifficulty ||
+                                                  []),
+                                                level,
+                                              ];
                                             }
                                             return p;
                                           });

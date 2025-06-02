@@ -29,7 +29,7 @@ export async function PATCH(req: Request) {
     const newCompletionDifficulty = currentValue[0].completionDifficulty
       ? [...currentValue[0].completionDifficulty, completionDifficulty]
       : [completionDifficulty];
-    
+
     const result = await db
       .update(problemsTable)
       .set({

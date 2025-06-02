@@ -20,9 +20,11 @@ function getCleanPlatform(platform: string | undefined | null) {
   if (platform === "SPOJ") return "SPOJ";
   if (platform === "Naukri") return "Naukri";
   if (platform === "LeetCode" || platform === "Leetcode") return "LeetCode";
-  if (platform === "GeeksforGeeks" || platform === "GeeksForGeeks") return "GeeksForGeeks";
+  if (platform === "GeeksforGeeks" || platform === "GeeksForGeeks")
+    return "GeeksForGeeks";
   if (platform === "Atcoder" || platform === "AtCoder") return "AtCoder";
-  if (platform === "Codeforces" || platform === "CodeForces") return "CodeForces";
+  if (platform === "Codeforces" || platform === "CodeForces")
+    return "CodeForces";
   if (platform === "CodeChef" || platform === "Codechef") return "CodeChef";
   if (platform === "CSES") return "CSES";
   return null;

@@ -19,7 +19,10 @@ export async function GET() {
 export async function POST(req: Request) {
   try {
     const { topic } = await req.json();
-    const problems = await db.select().from(problemsTable).where(eq(problemsTable.group, topic));
+    const problems = await db
+      .select()
+      .from(problemsTable)
+      .where(eq(problemsTable.group, topic));
     return NextResponse.json(problems);
   } catch (err) {
     console.error(err);

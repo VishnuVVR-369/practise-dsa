@@ -1,7 +1,9 @@
 import { integer, pgTable, varchar, timestamp } from "drizzle-orm/pg-core";
 
 export const problemsTable = pgTable("problems", {
-  id: integer().primaryKey().generatedAlwaysAsIdentity({ startWith: 1, increment: 1 }),
+  id: integer()
+    .primaryKey()
+    .generatedAlwaysAsIdentity({ startWith: 1, increment: 1 }),
   title: varchar({ length: 255 }).notNull(),
   difficulty: varchar({ length: 255 }).notNull(),
   status: varchar({ length: 255 }).notNull(),

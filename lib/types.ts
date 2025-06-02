@@ -2,12 +2,12 @@ export enum DIFFICULTY {
   Easy = "Easy",
   Medium = "Medium",
   Hard = "Hard",
-  Theory = "Theory"
+  Theory = "Theory",
 }
 
 export enum PROBLEM_STATUS {
   Unsolved = "Unsolved",
-  Solved = "Solved"
+  Solved = "Solved",
 }
 
 export enum PLATFORM {
@@ -18,7 +18,7 @@ export enum PLATFORM {
   Naukri = "Naukri",
   GeeksForGeeks = "GeeksForGeeks",
   AtCoder = "AtCoder",
-  CSES = "CSES"
+  CSES = "CSES",
 }
 
 export interface Problem {

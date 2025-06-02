@@ -1,5 +1,5 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Trophy, Zap, Target } from "lucide-react"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Trophy, Zap, Target } from "lucide-react";
 import MotivationalQuote from "./MotivationalQuotes";
 import type { Problem } from "@/lib/types";
 import StatisticsGrid from "./StatisticsGrid";
@@ -21,10 +21,14 @@ export default function Dashboard({ allProblems }: { allProblems: Problem[] }) {
             </h1>
             <Zap className="text-yellow-400 w-10 h-10" />
           </div>
-          <p className="text-slate-300 text-lg">Master Data Structures & Algorithms, One Problem at a Time</p>
+          <p className="text-slate-300 text-lg">
+            Master Data Structures & Algorithms, One Problem at a Time
+          </p>
           <div className="mt-4 inline-flex items-center gap-2 bg-green-500/20 text-green-400 px-4 py-2 rounded-full border border-green-500/30">
             <Target className="w-4 h-4" />
-            <span className="font-medium">Your coding journey starts here!</span>
+            <span className="font-medium">
+              Your coding journey starts here!
+            </span>
           </div>
         </div>
 
@@ -32,24 +36,30 @@ export default function Dashboard({ allProblems }: { allProblems: Problem[] }) {
 
         <Tabs defaultValue="solve" className="w-full">
           <TabsList className="grid w-full grid-cols-2 mb-6 bg-slate-800/50 border border-slate-700 h-16">
-            <TabsTrigger value="solve" className="text-lg py-3 data-[state=active]:bg-green-600 data-[state=active]:text-white cursor-pointer">
+            <TabsTrigger
+              value="solve"
+              className="text-lg py-3 data-[state=active]:bg-green-600 data-[state=active]:text-white cursor-pointer"
+            >
               🚀 SOLVE
             </TabsTrigger>
-            <TabsTrigger value="revise" className="text-lg py-3 data-[state=active]:bg-purple-600 data-[state=active]:text-white cursor-pointer">
+            <TabsTrigger
+              value="revise"
+              className="text-lg py-3 data-[state=active]:bg-purple-600 data-[state=active]:text-white cursor-pointer"
+            >
               🧠 REVISE
             </TabsTrigger>
           </TabsList>
 
           <TabsContent value="solve" className="space-y-6">
-          <StatisticsGrid problems={allProblems} />
-            
+            <StatisticsGrid problems={allProblems} />
+
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               <DailyProgressChart data={allProblems} />
               <WeeklyProgressChart data={allProblems} />
             </div>
-            
+
             <OverallProgressBar problems={allProblems} />
-            
+
             <div>
               <h2 className="text-3xl font-bold text-white mb-6 text-center">
                 Choose Your Challenge 💪
@@ -64,8 +74,12 @@ export default function Dashboard({ allProblems }: { allProblems: Problem[] }) {
                 🧠 Strengthen Your Knowledge
               </h2>
               <p className="text-slate-300 mb-6 text-center text-lg">
-                Review problems you&apos;ve conquered to build unshakeable confidence! 
-                <span className="text-green-400 font-semibold"> Repetition is the mother of skill.</span>
+                Review problems you&apos;ve conquered to build unshakeable
+                confidence!
+                <span className="text-green-400 font-semibold">
+                  {" "}
+                  Repetition is the mother of skill.
+                </span>
               </p>
               <RevisionProblems />
             </div>

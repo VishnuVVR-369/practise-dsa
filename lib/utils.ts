@@ -14,9 +14,11 @@ export function getTotalDays(problems: Problem[]): number {
 export function calculateStreak(problems: Problem[]): number {
   const problemsByDate = groupProblemsByDate(problems);
   const MS_PER_DAY = 1000 * 60 * 60 * 24;
-  const dayIndices = Object.keys(problemsByDate).map(dateStr => {
+  const dayIndices = Object.keys(problemsByDate).map((dateStr) => {
     const d = new Date(dateStr);
-    return Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / MS_PER_DAY);
+    return Math.floor(
+      Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / MS_PER_DAY
+    );
   });
   const daysSet = new Set(dayIndices);
   let maxStreak = 0;
@@ -39,7 +41,7 @@ export function calculateConsistencyScore(problems: Problem[]): number {
   if (totalDays === 0) return 0;
   const problemsByDate = groupProblemsByDate(problems);
   let totalConsistency = 0;
-  Object.keys(problemsByDate).forEach(date => {
+  Object.keys(problemsByDate).forEach((date) => {
     if (!date) return;
     const count = problemsByDate[date].length;
     totalConsistency += count >= 8 ? 100 : (count / 8) * 100;
@@ -64,14 +66,21 @@ export function daysTargetMissed(problems: Problem[]): number {
 }
 
 export function getAllStatistics(problems: Problem[]) {
-  const totalEasy = problems.filter(p => p.difficulty === "Easy").length;
-  const totalMedium = problems.filter(p => p.difficulty === "Medium").length;
-  const totalHard = problems.filter(p => p.difficulty === "Hard").length;
-  const solvedEasy = problems.filter(p => p.status === "Solved" && p.difficulty === "Easy").length;
-  const solvedMedium = problems.filter(p => p.status === "Solved" && p.difficulty === "Medium").length;
-  const solvedHard = problems.filter(p => p.status === "Solved" && p.difficulty === "Hard").length;
+  const totalEasy = problems.filter((p) => p.difficulty === "Easy").length;
+  const totalMedium = problems.filter((p) => p.difficulty === "Medium").length;
+  const totalHard = problems.filter((p) => p.difficulty === "Hard").length;
+  const solvedEasy = problems.filter(
+    (p) => p.status === "Solved" && p.difficulty === "Easy"
+  ).length;
+  const solvedMedium = problems.filter(
+    (p) => p.status === "Solved" && p.difficulty === "Medium"
+  ).length;
+  const solvedHard = problems.filter(
+    (p) => p.status === "Solved" && p.difficulty === "Hard"
+  ).length;
   const totalDays = getTotalDays(problems);
-  const avgProblemsPerDay = totalDays > 0 ? (solvedEasy + solvedMedium + solvedHard) / totalDays : 0;
+  const avgProblemsPerDay =
+    totalDays > 0 ? (solvedEasy + solvedMedium + solvedHard) / totalDays : 0;
   const streak = calculateStreak(problems);
   const consistencyScore = calculateConsistencyScore(problems);
   const targetAchieved = daysTargetAchieved(problems);
@@ -91,9 +100,12 @@ export function getAllStatistics(problems: Problem[]) {
   };
 }
 
-export function groupProblemsByDate(problems: Problem[]): Record<string, Problem[]> {
+export function groupProblemsByDate(
+  problems: Problem[]
+): Record<string, Problem[]> {
   const problemsByDate = problems.reduce((acc, problem) => {
-    const date = problem.solvedAt != null ? problem.solvedAt.toString().split("T")[0]: "";
+    const date =
+      problem.solvedAt != null ? problem.solvedAt.toString().split("T")[0] : "";
     if (!acc[date]) acc[date] = [];
     acc[date].push(problem);
     return acc;

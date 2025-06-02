@@ -16,7 +16,9 @@ export async function GET() {
         .select()
         .from(problemsTable)
         .where(
-          sql`date_trunc('day', ${problemsTable.solvedAt}) = ${target.toISOString().split("T")[0]}`
+          sql`date_trunc('day', ${problemsTable.solvedAt}) = ${
+            target.toISOString().split("T")[0]
+          }`
         );
     }
     return NextResponse.json(result);
