@@ -230,15 +230,27 @@ const TopicDetail = () => {
         </div>
 
         <div className="space-y-4">
-          {groupedProblems.map((subTopic) => (
-            <Accordion
-              key={subTopic.id}
-              type="single"
-              collapsible
-              className="bg-slate-800/50 rounded-xl shadow-xl border border-slate-700"
-            >
+          {groupedProblems.map((subTopic) => {
+            const totalProblemsInSubTopic = subTopic.problems.length;
+            const solvedProblemsInSubTopic = subTopic.problems.filter(
+              (problem) => problem.status === "Solved"
+            ).length;
+            return (
+              <Accordion
+                key={subTopic.id}
+                type="single"
+                collapsible
+                className="bg-slate-800/50 rounded-xl shadow-xl border border-slate-700"
+              >
               <AccordionItem value={subTopic.id} className="border-none">
-                <AccordionTrigger className="px-6 py-4 hover:no-underline">
+                <AccordionTrigger className="relative px-6 py-4 hover:no-underline cursor-pointer">
+                  <div
+                    className="absolute inset-0 bg-green-600/20"
+                    style={{
+                      width: `${(solvedProblemsInSubTopic / totalProblemsInSubTopic) * 100}%`,
+                      zIndex: 0,
+                    }}
+                  />
                   <div className="flex items-center justify-between w-full">
                     <h3 className="text-lg font-semibold text-white">
                       {subTopic.name}
@@ -430,7 +442,7 @@ const TopicDetail = () => {
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
-          ))}
+          )})}
         </div>
       </div>
     </div>
