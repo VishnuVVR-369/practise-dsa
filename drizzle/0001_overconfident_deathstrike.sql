@@ -1,0 +1,1 @@
+ALTER TABLE "problems" ADD COLUMN "notes" varchar(1000);

@@ -34,4 +34,5 @@ export interface Problem {
   solvedAt: Date | null;
   revisedAt: Date[] | null;
   completionDifficulty?: string[] | null;
+  notes?: string | null;
 }

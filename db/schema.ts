@@ -15,4 +15,5 @@ export const problemsTable = pgTable("problems", {
   solvedAt: timestamp(),
   revisedAt: timestamp().array(),
   completionDifficulty: varchar({ length: 255 }).array(),
+  notes: varchar({ length: 1000 }),
 });

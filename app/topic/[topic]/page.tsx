@@ -12,7 +12,8 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
-import { ArrowLeft, Trophy, Target } from "lucide-react";
+import { Textarea } from "@/components/ui/textarea";
+import { ArrowLeft, Trophy, Target, FileText } from "lucide-react";
 import { groupBy } from "lodash";
 import Image from "next/image";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -21,6 +22,8 @@ const TopicDetail = () => {
   const router = useRouter();
   const topic = decodeURIComponent(useParams().topic as string);
   const [problems, setProblems] = useState<Problem[]>();
+  const [selectedProblem, setSelectedProblem] = useState<Problem | null>(null);
+  const [notes, setNotes] = useState("");
 
   useEffect(() => {
     const fetchProblems = async () => {
@@ -137,6 +140,29 @@ const TopicDetail = () => {
     );
   };
 
+  const handleSaveNotes = async () => {
+    if (selectedProblem) {
+      try {
+        await fetch("/api/update-notes", {
+          method: "PATCH",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            id: selectedProblem.id,
+            notes,
+          }),
+        });
+        setProblems((prev) =>
+          prev?.map((p) => (p.id === selectedProblem.id ? { ...p, notes } : p))
+        );
+        setSelectedProblem(null);
+      } catch (error) {
+        console.error("Error updating notes:", error);
+      }
+    }
+  };
+
   const getDifficultyColor = (difficulty: string) => {
     switch (difficulty) {
       case "Easy":
@@ -242,209 +268,259 @@ const TopicDetail = () => {
                 collapsible
                 className="bg-slate-800/50 rounded-xl shadow-xl border border-slate-700"
               >
-              <AccordionItem value={subTopic.id} className="border-none">
-                <AccordionTrigger className="relative px-6 py-4 hover:no-underline cursor-pointer">
-                  <div
-                    className="absolute inset-0 bg-green-600/20"
-                    style={{
-                      width: `${(solvedProblemsInSubTopic / totalProblemsInSubTopic) * 100}%`,
-                      zIndex: 0,
-                    }}
-                  />
-                  <div className="flex items-center justify-between w-full">
-                    <h3 className="text-lg font-semibold text-white">
-                      {subTopic.name}
-                    </h3>
-                    <Badge
-                      variant="outline"
-                      className="ml-2 text-slate-300 border-slate-600"
-                    >
-                      {subTopic.problems.length} problems
-                    </Badge>
-                  </div>
-                </AccordionTrigger>
-                <AccordionContent className="px-6 pb-4">
-                  {subTopic.problems.length === 0 ? (
-                    <p className="text-slate-400 text-center py-4">
-                      No problems available in this sub-topic.
-                    </p>
-                  ) : (
-                    <div className="space-y-3">
-                      {subTopic.problems.map((problem) => {
-                        // Determine the last completion difficulty for background
-                        const lastDifficulty =
-                          problem.completionDifficulty &&
-                          problem.completionDifficulty.length > 0
-                            ? problem.completionDifficulty[
-                                problem.completionDifficulty.length - 1
-                              ]
-                            : undefined;
-                        // Check if problem is solved
-                        const isSolved = problem.status === "Solved";
-                        // Check if LeetCode link
-                        const isLeetCode =
-                          problem.problemLink &&
-                          problem.problemLink.includes("leetcode");
-                        return (
-                          <div
-                            key={problem.id}
-                            className={`border rounded-lg p-4 transition-colors ${getProblemBackgroundColor(
-                              lastDifficulty
-                            )}`}
-                          >
-                            <div className="grid grid-cols-1 md:grid-cols-5 gap-4 items-center">
-                              {/* Checkbox column */}
-                              <div className="flex justify-center">
-                                <Checkbox
-                                  checked={isSolved}
-                                  onCheckedChange={async (checked) => {
-                                    handleProblemSolved(problem.id, !!checked);
-                                    try {
-                                      await fetch("/api/solve-problem", {
-                                        method: "PATCH",
-                                        headers: {
-                                          "Content-Type": "application/json",
-                                        },
-                                        body: JSON.stringify({
-                                          id: problem.id,
-                                          status: checked
-                                            ? "Solved"
-                                            : "Unsolved",
-                                        }),
-                                      });
-                                    } catch (e) {
-                                      console.error(
-                                        "Failed to update problem status on server.",
-                                        e
+                <AccordionItem value={subTopic.id} className="border-none">
+                  <AccordionTrigger className="relative px-6 py-4 hover:no-underline cursor-pointer">
+                    <div
+                      className="absolute inset-0 bg-green-600/20"
+                      style={{
+                        width: `${
+                          (solvedProblemsInSubTopic / totalProblemsInSubTopic) *
+                          100
+                        }%`,
+                        zIndex: 0,
+                      }}
+                    />
+                    <div className="flex items-center justify-between w-full">
+                      <h3 className="text-lg font-semibold text-white">
+                        {subTopic.name}
+                      </h3>
+                      <Badge
+                        variant="outline"
+                        className="ml-2 text-slate-300 border-slate-600"
+                      >
+                        {subTopic.problems.length} problems
+                      </Badge>
+                    </div>
+                  </AccordionTrigger>
+                  <AccordionContent className="px-6 pb-4">
+                    {subTopic.problems.length === 0 ? (
+                      <p className="text-slate-400 text-center py-4">
+                        No problems available in this sub-topic.
+                      </p>
+                    ) : (
+                      <div className="space-y-3">
+                        {subTopic.problems.map((problem) => {
+                          // Determine the last completion difficulty for background
+                          const lastDifficulty =
+                            problem.completionDifficulty &&
+                            problem.completionDifficulty.length > 0
+                              ? problem.completionDifficulty[
+                                  problem.completionDifficulty.length - 1
+                                ]
+                              : undefined;
+                          // Check if problem is solved
+                          const isSolved = problem.status === "Solved";
+                          // Check if LeetCode link
+                          const isLeetCode =
+                            problem.problemLink &&
+                            problem.problemLink.includes("leetcode");
+                          return (
+                            <div
+                              key={problem.id}
+                              className={`border rounded-lg p-4 transition-colors ${getProblemBackgroundColor(
+                                lastDifficulty
+                              )}`}
+                            >
+                              <div className="grid grid-cols-1 md:grid-cols-6 gap-4 items-center">
+                                {/* Checkbox column */}
+                                <div className="flex justify-center">
+                                  <Checkbox
+                                    checked={isSolved}
+                                    onCheckedChange={async (checked) => {
+                                      handleProblemSolved(
+                                        problem.id,
+                                        !!checked
                                       );
-                                    }
-                                  }}
-                                  className="border-slate-600 data-[state=checked]:bg-green-600 data-[state=checked]:border-green-600 cursor-pointer"
-                                />
-                              </div>
-                              <div>
-                                <h4 className="font-medium text-white">
-                                  {problem.title}
-                                </h4>
-                              </div>
-                              <div className="flex justify-center">
-                                <Button
-                                  variant="outline"
-                                  size="sm"
-                                  className={`${getDifficultyColor(
-                                    problem.difficulty
-                                  )} border transition-colors`}
-                                >
-                                  {problem.difficulty}
-                                </Button>
-                              </div>
-                              {/* LeetCode/Visit column */}
-                              <div className="flex justify-center">
-                                {isLeetCode ? (
-                                  <a
-                                    href={problem.problemLink || ""}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="flex items-center text-blue-400 hover:text-blue-300 transition-colors"
+                                      try {
+                                        await fetch("/api/solve-problem", {
+                                          method: "PATCH",
+                                          headers: {
+                                            "Content-Type": "application/json",
+                                          },
+                                          body: JSON.stringify({
+                                            id: problem.id,
+                                            status: checked
+                                              ? "Solved"
+                                              : "Unsolved",
+                                          }),
+                                        });
+                                      } catch (e) {
+                                        console.error(
+                                          "Failed to update problem status on server.",
+                                          e
+                                        );
+                                      }
+                                    }}
+                                    className="border-slate-600 data-[state=checked]:bg-green-600 data-[state=checked]:border-green-600 cursor-pointer"
+                                  />
+                                </div>
+                                <div>
+                                  <h4 className="font-medium text-white">
+                                    {problem.title}
+                                  </h4>
+                                </div>
+                                <div className="flex justify-center">
+                                  <Button
+                                    variant="outline"
+                                    size="sm"
+                                    className={`${getDifficultyColor(
+                                      problem.difficulty
+                                    )} border transition-colors`}
                                   >
-                                    {/* <ExternalLink size={16} className="mr-1" />
-                                    LeetCode */}
-                                    <Image
-                                      src="/leetcode.svg"
-                                      alt="LeetCode"
-                                      width={28}
-                                      height={28}
-                                    />
-                                  </a>
-                                ) : (
-                                  <a
-                                    href={problem.problemLink || ""}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="flex items-center text-blue-400 hover:text-blue-300 transition-colors"
-                                  >
-                                    <Button
-                                      variant="outline"
-                                      size="sm"
-                                      className="border-blue-400 text-blue-400 hover:bg-blue-500/20"
+                                    {problem.difficulty}
+                                  </Button>
+                                </div>
+                                {/* LeetCode/Visit column */}
+                                <div className="flex justify-center">
+                                  {isLeetCode ? (
+                                    <a
+                                      href={problem.problemLink || ""}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="flex items-center text-blue-400 hover:text-blue-300 transition-colors"
                                     >
-                                      Visit
-                                    </Button>
-                                  </a>
-                                )}
-                              </div>
-                              {/* Revision column */}
-                              <div>
-                                {isSolved && (
-                                  <div className="flex gap-1">
-                                    {["Easy", "Medium", "Hard"].map((level) => (
+                                      {/* <ExternalLink size={16} className="mr-1" />
+                                    LeetCode */}
+                                      <Image
+                                        src="/leetcode.svg"
+                                        alt="LeetCode"
+                                        width={28}
+                                        height={28}
+                                      />
+                                    </a>
+                                  ) : (
+                                    <a
+                                      href={problem.problemLink || ""}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="flex items-center text-blue-400 hover:text-blue-300 transition-colors"
+                                    >
                                       <Button
-                                        key={level}
                                         variant="outline"
                                         size="sm"
-                                        disabled={!isSolved}
-                                        onClick={async () => {
-                                          // Optimistically update UI immediately
-                                          setProblems((prev) =>
-                                            prev?.map((p) =>
-                                              p.id === problem.id
-                                                ? {
-                                                    ...p,
-                                                    completionDifficulty: [
-                                                      ...(p.completionDifficulty ||
-                                                        []),
-                                                      level,
-                                                    ],
-                                                  }
-                                                : p
-                                            )
-                                          );
-                                          // Then call API
-                                          try {
-                                            await fetch("/api/revise-status", {
-                                              method: "PATCH",
-                                              headers: {
-                                                "Content-Type":
-                                                  "application/json",
-                                              },
-                                              body: JSON.stringify({
-                                                id: problem.id,
-                                                completionDifficulty: level,
-                                              }),
-                                            });
-                                          } catch (e) {
-                                            console.error(
-                                              "Failed to update revision status on server.",
-                                              e
-                                            );
-                                          }
-                                        }}
-                                        className={getRevisionButtonColor(
-                                          level,
-                                          problem.completionDifficulty?.[
-                                            problem.completionDifficulty
-                                              .length - 1
-                                          ] === level
-                                        )}
+                                        className="border-blue-400 text-blue-400 hover:bg-blue-500/20"
                                       >
-                                        {level}
+                                        Visit
                                       </Button>
-                                    ))}
-                                  </div>
-                                )}
+                                    </a>
+                                  )}
+                                </div>
+                                {/* Notes column */}
+                                <div className="flex justify-center">
+                                  <Button
+                                    variant="ghost"
+                                    size="icon"
+                                    onClick={() => {
+                                      setSelectedProblem(problem);
+                                      setNotes(problem.notes || "");
+                                    }}
+                                  >
+                                    <FileText className="text-slate-400" />
+                                  </Button>
+                                </div>
+                                {/* Revision column */}
+                                <div>
+                                  {isSolved && (
+                                    <div className="flex gap-1">
+                                      {["Easy", "Medium", "Hard"].map(
+                                        (level) => (
+                                          <Button
+                                            key={level}
+                                            variant="outline"
+                                            size="sm"
+                                            disabled={!isSolved}
+                                            onClick={async () => {
+                                              // Optimistically update UI immediately
+                                              setProblems((prev) =>
+                                                prev?.map((p) =>
+                                                  p.id === problem.id
+                                                    ? {
+                                                        ...p,
+                                                        completionDifficulty: [
+                                                          ...(p.completionDifficulty ||
+                                                            []),
+                                                          level,
+                                                        ],
+                                                      }
+                                                    : p
+                                                )
+                                              );
+                                              // Then call API
+                                              try {
+                                                await fetch(
+                                                  "/api/revise-status",
+                                                  {
+                                                    method: "PATCH",
+                                                    headers: {
+                                                      "Content-Type":
+                                                        "application/json",
+                                                    },
+                                                    body: JSON.stringify({
+                                                      id: problem.id,
+                                                      completionDifficulty:
+                                                        level,
+                                                    }),
+                                                  }
+                                                );
+                                              } catch (e) {
+                                                console.error(
+                                                  "Failed to update revision status on server.",
+                                                  e
+                                                );
+                                              }
+                                            }}
+                                            className={getRevisionButtonColor(
+                                              level,
+                                              problem.completionDifficulty?.[
+                                                problem.completionDifficulty
+                                                  .length - 1
+                                              ] === level
+                                            )}
+                                          >
+                                            {level}
+                                          </Button>
+                                        )
+                                      )}
+                                    </div>
+                                  )}
+                                </div>
                               </div>
                             </div>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  )}
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
-          )})}
+                          );
+                        })}
+                      </div>
+                    )}
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+            );
+          })}
         </div>
       </div>
+      {selectedProblem && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+          <div className="bg-slate-800 rounded-lg p-6 w-full max-w-lg">
+            <h2 className="text-xl font-bold mb-4">
+              Notes for {selectedProblem.title}
+            </h2>
+            <Textarea
+              value={notes}
+              onChange={(e) => setNotes(e.target.value)}
+              className="mb-4"
+              rows={10}
+            />
+            <div className="flex justify-end gap-4">
+              <Button
+                variant="outline"
+                onClick={() => setSelectedProblem(null)}
+              >
+                Cancel
+              </Button>
+              <Button onClick={handleSaveNotes}>Save</Button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
