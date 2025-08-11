@@ -42,16 +42,20 @@ const DailyProgressChart = ({ data }: DailyProgressChartProps) => {
     if (solved.length === 0) {
       return { chartData: [], hasSolvedProblems: false };
     }
-    const chartData = Object.entries(problemsByDate).map(
-      ([date, problems]) => ({
-        date,
-        count: problems.length,
-      })
-    );
-    chartData.sort(
-      (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
-    );
-    return { chartData, hasSolvedProblems: true };
+    // Build a continuous date range from min to max date and fill gaps with 0
+    const dateKeys = Object.keys(problemsByDate);
+    dateKeys.sort((a, b) => new Date(a).getTime() - new Date(b).getTime());
+    const start = new Date(dateKeys[0]);
+    const end = new Date(dateKeys[dateKeys.length - 1]);
+    const filledData: { date: string; count: number }[] = [];
+    const cursor = new Date(start);
+    while (cursor.getTime() <= end.getTime()) {
+      const key = new Date(cursor).toISOString().slice(0, 10);
+      const count = problemsByDate[key]?.length ?? 0;
+      filledData.push({ date: key, count });
+      cursor.setDate(cursor.getDate() + 1);
+    }
+    return { chartData: filledData, hasSolvedProblems: true };
   }, [data]);
 
   if (!hasSolvedProblems) return <NoDataChart />;

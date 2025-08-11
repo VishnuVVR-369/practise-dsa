@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 export async function GET() {
-  const prompt = `Generate a short, fresh, and highly motivational quote for someone preparing for software engineering interviews at big tech companies. The quote should be relatable, inspiring, and specific to the journey of coding, problem solving, and perseverance in the context of big tech interviews.`;
+  const prompt = `Craft a concise, original, and deeply motivating quote for software engineers gearing up for interviews at top tech companies. Make it relatable to the coding challenges, algorithmic problem-solving, and resilience required on the big-tech interview journey.`;
 
   try {
     const geminiRes = await fetch(

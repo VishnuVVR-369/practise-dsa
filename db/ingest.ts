@@ -56,6 +56,9 @@ async function ingest() {
     }
   } catch (err) {
     console.error("Error connecting to database:", err);
+  } finally {
+    console.log("Ingestion completed");
+    await db.end();
   }
 }
 
